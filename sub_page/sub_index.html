@@ -1,0 +1,1987 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sub_page</title>
+    <!--gsap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+  
+    <!--slick-->
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet"><!--Light-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap" rel="stylesheet"><!--Bold-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" /><!--font-awesome-->
+
+    <!--css-->
+   <link rel="stylesheet" href="./css/sub.css">
+
+    <!--script-->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <!--slick-->
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/sub.js" defer></script>
+
+</head>
+<body>
+  
+  <div class="inner_header">
+    <header class="header" id="header">
+      <nav class="gnb_box">
+        <a href="../index.html">
+          <ul class="logo">
+            <img src="./images/logo01 (1).png" alt="로고">
+          </ul>
+        </a>
+
+        <input type="checkbox" id="chk_kor">
+
+        <ul class="gnb">
+          <li><label for="chk_kor">Kor</label></li>
+          <li><label for="chk_kor" class="btn_kor_open"><i class="fa-solid fa-chevron-down"></i></label></li>
+          <li>
+            <label for="chk_ham_box" class="lab_ham_open"><i class="fa-solid fa-bars"></i></label>
+            <label for="chk_ham_box" class="lab_ham_close"><i class="fa-solid fa-x"></i></label>
+          </li>
+        </ul><!--gnb_label-->
+        <ul class="kor_list">
+          <li><a href="#!">English</a></li>
+          <li><a href="#!">日本語</a></li>
+          <li><a href="#!">简体中文</a></li>
+          <li><a href="#!">繁體中文</a></li>
+          <li><a href="#!">WorldWide</a></li>
+        </ul>
+
+        <ul class="gnb_hidden">
+          <li><a href="#!">로그인</a></li>
+          <li><a href="#!">회원가입</a></li>
+          <li><a href="#!">부서소개</a></li>
+          <li><a href="#!">사이트맵</a></li>
+        </ul>
+      </nav><!--gnb_box-->
+
+      <div class="lnb_box">
+        <nav class="lnb">
+          <ul>
+            <li>부산민원120</li>
+            <li>부산소식</li>
+            <li>정보공개</li>
+            <li>부산소개</li>
+            <li>분야별정보</li>
+          </ul>
+        </nav><!--lnb-->
+        
+        <div class="lnb_list_menu">
+          <nav>
+            <ul>
+              <li><a href="#!">- 민원신청</a></li>
+              <li><a href="#!">- 제안신청</a></li>
+              <li><a href="#!">- 시민참여</a></li>
+              <li><a href="#!">- 민원안내</a></li>
+              <li><a href="#!">- 120콜센터</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="#!">- 새소식</a></li>
+              <li><a href="#!">- 부산시보</a></li>
+              <li><a href="#!">- 보도·해명자료</a></li>
+              <li><a href="#!">- 공고</a></li>
+              <li><a href="#!">- 부산시 공식 SNS</a></li>
+              <li><a href="#!">- 시정사진</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="#!">- 주요시책</a></li>
+              <li><a href="#!">- 정보공개</a></li>
+              <li><a href="#!">- 예산</a></li>
+              <li><a href="#!">- 감사정보</a></li>
+              <li><a href="#!">- 지방공기업</a></li>
+              <li><a href="#!">- 계약정보</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="#!">- 부산의 인물</a></li>
+              <li><a href="#!">- 부산의 오늘</a></li>
+              <li><a href="#!">- 부산의 상징</a></li>
+              <li><a href="#!">- 부산시청 안내</a></li>
+              <li><a href="#!">- 부산의 역사</a></li>
+              <li><a href="#!">- 부산통계</a></li>
+              <li><a href="#!">- 시민행복지표</a></li>
+              <li><a href="#!">- 도시브랜드</a></li>
+              <li><a href="#!">- 주민자치회</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="#!">- 경제</a></li>
+              <li><a href="#!">- 일자리·교육</a></li>
+              <li><a href="#!">- 사회복지</a></li>
+              <li><a href="#!">- 보건·건강</a></li>
+              <li><a href="#!">- 도시·건축</a></li>
+              <li><a href="#!">- 안전</a></li>
+              <li><a href="#!">- 환경보호</a></li>
+              <li><a href="#!">- 교통·물류</a></li>
+              <li><a href="#!">- 해양농수산</a></li>
+              <li><a href="#!">- 행정</a></li>
+            </ul>
+          </nav>
+        </div><!--lnb_list_menu-->
+      </div><!--lnb_box-->
+    </header><!--header-->
+  </div><!--inner_header-->
+  
+  <section class="ham_box">    
+    <div class="loginjoin">
+      <div><a href="#!"><p>로그인</p><i class="fa-solid fa-plus"></i></a></div>
+      <div><a href="#!"><p>회원가입</p><i class="fa-solid fa-plus"></i></a></div>
+    </div>
+
+    <div class="tab_box">
+      <ul class="ham_tab">
+        <li class="on"><a href="#!">부산민원120</a></li>
+        <li><a href="#!">부산소식</a></li>
+        <li><a href="#!">정보공개</a></li>
+        <li><a href="#!">부산소개</a></li>
+        <li><a href="#!">분야별정보</a></li>
+      </ul>
+
+      <div class="ham_tab_sheet"> 
+        <ul class="sheet01 on_sheet">
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad01" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              민원신청
+              <label for="aco_rad01" class="tab_lab_open tab_lab">
+                <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad01" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <div class="tab_menu_list01 tab_list">
+              <ul>
+                <li><a href="#!">민원신청</a></li>
+                <li><a href="#!">부산민원120 이용안내</a></li>
+                <li><a href="#!">이달의 주요민원</a></li>
+                <li><a href="#!">교통불편 민원신청</a></li>
+                <li><a href="#!">민원사례</a></li>
+                <li><a href="#!">스마트 현장사진신고</a></li>
+                <li><a href="#!">신고센터</a></li>
+                <li><a href="#!">공익제보센터</a></li>
+                <li><a href="#!">정부24</a></li>
+              </ul>
+            </div><!--tab_menu_list01-->
+          </li><!--tab_li_box-->
+  
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad02" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              제안신청
+              <label for="aco_rad02" class="tab_lab_open tab_lab">
+                <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad02" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list02 tab_list">
+              <li><a href="#!">일반제안</a></li>
+              <li><a href="#!">공모제안</a></li>
+              <li><a href="#!">나의 제안</a></li>
+            </ul><!--tab_menu_list02-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad03" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              시민참여
+              <label for="aco_rad03" class="tab_lab_open tab_lab">
+                <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad03" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list03 tab_list">
+              <li><a href="#!">설문조사</a></li>
+              <li><a href="#!">나눔장터</a></li>
+              <li><a href="#!">국민생각함</a></li>
+              <li><a href="#!">모니터</a></li>
+              <li><a href="#!">이벤트 통합안내</a></li>
+              <li><a href="#!">행사/모집 신청</a></li>
+              <li><a href="#!">시민게시판</a></li>
+              <li><a href="#!">주민참여예산</a></li>
+              <li><a href="#!">민생규제혁신과제</a></li>
+              <li><a href="#!">칭찬합시다</a></li>
+              <li><a href="#!">시민열린마루</a></li>
+              <li><a href="#!">협치부산</a></li>
+            </ul><!--tab_menu_list03-->
+          </li><!--tab_li_box-->
+
+            
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad04" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              민원안내
+              <label for="aco_rad04" class="tab_lab_open tab_lab">
+                <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad04" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list04 tab_list">
+              <li><a href="#!">민원편람</a></li>
+              <li><a href="#!">민원목록</a></li>
+              <li><a href="#!">민원처리 확인</a></li>
+              <li><a href="#!">여권안내 </a></li>
+              <li><a href="#!">편리한 민원서비스</a></li>
+              <li><a href="#!">민원정보</a></li>
+              <li><a href="#!">민원시책</a></li>
+              <li><a href="#!">행정서비스헌장</a></li>
+            </ul><!--tab_menu_list04-->
+          </li><!--tab_li_box-->
+
+          
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad05" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              120콜센터
+              <label for="aco_rad05" class="tab_lab_open tab_lab">
+                <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad05" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list05 tab_list">
+              <li><a href="#!">이용안내</a></li>
+              <li><a href="#!">콜센터 소개</a></li>
+            </ul><!--tab_menu_list05-->
+          </li><!--tab_li_box-->
+        </ul><!--sheet01-->
+
+
+        <ul class="sheet02">
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad06" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              새소식
+              <label for="aco_rad06" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad06" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list06 tab_list">
+              <li><a href="#!">통합 공지사항</a></li>
+              <li><a href="#!">홍보게시판</a></li>
+              <li><a href="#!">시정영상뉴스</a></li>
+              <li><a href="#!">전자책</a></li>
+              <li><a href="#!">공공앱</a></li>
+            </ul><!--tab_menu_list06-->
+          </li><!--tab_li_box-->
+
+          
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+              부산시보(다이내믹 부산)
+            </ul>
+
+            <ul class="tab_menu_list07 tab_list"></ul><!--tab_menu_list07-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad08" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              보도 · 해명자료
+              <label for="aco_rad08" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad08" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list08 tab_list">
+              <li><a href="#!">보도자료</a></li>
+              <li><a href="#!">해명 · 설명자료</a></li>
+            </ul><!--tab_menu_list08-->
+          </li><!--tab_li_box-->
+
+          
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad09" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              공고
+              <label for="aco_rad09" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad09" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list09 tab_list">
+              <li><a href="#!">채용공고</a></li>
+              <li><a href="#!">공무원 시험공고</a></li>
+              <li><a href="#!">입찰공고</a></li>
+              <li><a href="#!">부산시보 고시공고</a></li>
+              <li><a href="#!">고시공고</a></li>
+              <li><a href="#!">입법예고</a></li>
+              <li><a href="#!">분묘개장공고</a></li>
+            </ul><!--tab_menu_list09-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+              부산시 공식SNS
+            </ul>
+            <ul class="tab_menu_list10 tab_list"></ul><!--tab_menu_list10-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad11" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              시정사진
+              <label for="aco_rad11" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad11" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list11 tab_list">
+              <li><a href="#!">시정관련 사진자료</a></li>
+              <li><a href="#!">테마 갤러리</a></li>
+              <li><a href="#!">상징</a></li>
+            </ul><!--tab_menu_list11-->
+          </li><!--tab_li_box-->
+        </ul><!--sheet02-->
+
+
+
+        <ul class="sheet03">
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad12" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              주요시책
+              <label for="aco_rad12" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad12" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list12 tab_list">
+              <li><a href="#!">주요엄무계획</a></li>
+              <li><a href="#!">핵심정책</a></li>
+              <li><a href="#!">2022년 달라지는제도</a></li>
+              <li><a href="#!">인구정책 브리핑</a></li>
+            </ul><!--tab_menu_list12-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad13" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              정보공개
+              <label for="aco_rad13" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad13" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list13 tab_list">
+              <li><a href="#!">정보공개제도</a></li>
+              <li><a href="#!">결재문서</a></li>
+              <li><a href="#!">정보공개 청구</a></li>
+              <li><a href="#!">사전정보공표</a></li>
+              <li><a href="#!">이 달의 정보공개</a></li>
+              <li><a href="#!">공유재산 및 물품</a></li>
+              <li><a href="#!">용역보고서</a></li>
+              <li><a href="#!">정책실명제</a></li>
+              <li><a href="#!">참여정책사전공시</a></li>
+              <li><a href="#!">인사통계/조직정보</a></li>
+              <li><a href="#!">마을세무사</a></li>
+              <li><a href="#!">공공시설건립비용</a></li>
+              <li><a href="#!">청사 신축비용</a></li>
+              <li><a href="#!">공공데이터 포털</a></li>
+              <li><a href="#!">빅데이터 포털</a></li>
+              <li><a href="#!">시민여론조사</a></li>
+              <li><a href="#!">위원회 운영정보</a></li>
+              <li><a href="#!">물가정보</a></li>
+              <li><a href="#!">업무추진비</a></li>
+              <li><a href="#!">먹는물영업자 위반현황</a></li>
+            </ul><!--tab_menu_list13-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad14" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              예산
+              <label for="aco_rad14" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad14" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list14 tab_list">
+              <li><a href="#!">세입세출예산서</a></li>
+              <li><a href="#!">기금운용계획</a></li>
+              <li><a href="#!">재정공시</a></li>
+              <li><a href="#!">세입세출운용</a></li>
+              <li><a href="#!">신고 및 조회</a></li>
+              <li><a href="#!">예산절감(낭비)사례</a></li>
+              <li><a href="#!">보조금 내역 공개</a></li>
+              <li><a href="#!">민간위탁</a></li>
+              <li><a href="#!">공공기간 위탁·대행</a></li>
+              <li><a href="#!">지방재정365</a></li>
+            </ul><!--tab_menu_list14-->
+          </li><!--tab_li_box-->
+
+          
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad15" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              감사정보
+              <label for="aco_rad15" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad15" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list15 tab_list">
+              <li><a href="#!">감사실시 안내</a></li>
+              <li><a href="#!">감사실시 결과</a></li>
+              <li><a href="#!">감사반복 지적사례</a></li>
+              <li><a href="#!">감사 제도</a></li>
+              <li><a href="#!">공직윤리제도</a></li>
+              <li><a href="#!">청렴게시판</a></li>
+              <li><a href="#!">부패공직자 제재현황</a></li>
+              <li><a href="#!">청렴해요 부산</a></li>
+              <li><a href="#!">청렴도 자가진단</a></li>
+              <li><a href="#!">시민 감사요망사항</a></li>
+              <li><a href="#!">채용 비리 신고</a></li>
+              <li><a href="#!">공공기관 신고하기</a></li>
+              <li><a href="#!"></a></li>
+            </ul><!--tab_menu_list15-->
+          </li><!--tab_li_box-->
+
+                  
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad16" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              지방공기업
+              <label for="aco_rad16" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad16" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list16 tab_list">
+              <li><a href="#!">지방공기업이란</a></li>
+              <li><a href="#!">지방공기업 현황</a></li>
+              <li><a href="#!">지방공기업 경영정보</a></li>
+              <li><a href="#!">지방공기업 임금공시</a></li>
+            </ul><!--tab_menu_list16-->
+          </li><!--tab_li_box-->
+
+                   
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad17" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              계약정보
+              <label for="aco_rad17" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad17" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list17 tab_list">
+              <li><a href="#!">계약현황</a></li>
+              <li><a href="#!">수의계약현황</a></li>
+              <li><a href="#!">하도급현황</a></li>
+              <li><a href="#!">대가지급</a></li>
+              <li><a href="#!">상수도사업본부 계약정보</a></li>
+            </ul><!--tab_menu_list17-->
+          </li><!--tab_li_box-->
+        </ul><!--sheet03-->
+
+        <ul class="sheet04">
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad18" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산의 인물
+              <label for="aco_rad18" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad18" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list18 tab_list">
+              <li><a href="#!">향토수호(충신)</a></li>
+              <li><a href="#!">독립운동가</a></li>
+              <li><a href="#!">학자 및 교육자</a></li>
+              <li><a href="#!">사회운동가</a></li>
+              <li><a href="#!">기업인</a></li>
+              <li><a href="#!">문화예술인</a></li>
+              <li><a href="#!">부산광역시 문화상</a></li>
+              <li><a href="#!">자랑스러운 시민상</a></li>
+              <li><a href="#!">부산광역시 명예시민</a></li>
+            </ul><!--tab_menu_list18-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad19" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산의 오늘
+              <label for="aco_rad19" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad19" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list19 tab_list">
+              <li><a href="#!">도시비전과 목표</a></li>
+              <li><a href="#!">기본현황</a></li>
+              <li><a href="#!">행정구역/지도</a></li>
+              <li><a href="#!">국제교류 및 자매도시</a></li>
+
+            </ul><!--tab_menu_list19-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad20" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산의 상징
+              <label for="aco_rad20" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad20" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list20 tab_list">
+              <li><a href="#!">지역상징</a></li>
+              <li><a href="#!">기관상징</a></li>
+              <li><a href="#!">부산체</a></li>
+              <li><a href="#!">부산시민헌장</a></li>
+              <li><a href="#!">부산찬가</a></li>
+              <li><a href="#!">부산시민의 날</a></li>
+            </ul><!--tab_menu_list20-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad21" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산시청 안내
+              <label for="aco_rad21" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad21" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list21 tab_list">
+              <li><a href="#!">시청사 안내</a></li>
+              <li><a href="#!">전화번호 안내</a></li>
+              <li><a href="#!">조직도</a></li>
+              <li><a href="#!">시설운영 안내</a></li>
+              <li><a href="#!">시청사 견학</a></li>
+              <li><a href="#!">시청 전시실 대관</a></li>
+              <li><a href="#!">공기업·출자·출연기관</a></li>
+            </ul><!--tab_menu_list21-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad22" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산의 역사
+              <label for="aco_rad22" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad22" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list22 tab_list">
+              <li><a href="#!">명칭유래</a></li>
+              <li><a href="#!">시대별 부산역사</a></li>
+              <li><a href="#!">문화재</a></li>
+              <li><a href="#!">부산의 주요 경승지</a></li>
+              <li><a href="#!">시정역사</a></li>
+              <li><a href="#!">역대시장</a></li>
+              <li><a href="#!">연혁</a></li>
+              <li><a href="#!">향토사도서관</a></li>
+              <li><a href="#!">부산역사문화대전</a></li>
+              <li><a href="#!">항공사진으로 본 역사</a></li>
+            </ul><!--tab_menu_list22-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad23" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산통계
+              <label for="aco_rad23" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad23" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list23 tab_list">
+              <li><a href="#!">통계로 보는 부산</a></li>
+              <li><a href="#!">시민공감지도</a></li>
+              <li><a href="#!">통계소식</a></li>
+              <li><a href="#!">통계자료실</a></li>
+              <li><a href="#!">통계의 이해</a></li>
+            </ul><!--tab_menu_list23-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad24" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              시민행복지표
+              <label for="aco_rad24" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad24" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list24 tab_list">
+              <li><a href="#!">시민행복지표란?</a></li>
+              <li><a href="#!">시민행복지표 소개</a></li>
+              <li><a href="#!">시민행복지표 현황</a></li>
+            </ul><!--tab_menu_list24-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad25" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              도시브랜드
+              <label for="aco_rad25" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad25" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list25 tab_list">
+              <li><a href="#!">도시브랜드</a></li>
+              <li><a href="#!">부산브랜드웹툰</a></li>
+              <li><a href="#!">부산기네스125선</a></li>
+              <li><a href="#!">소통캐릭터</a></li>
+              <li><a href="#!">부산관광브랜드</a></li>
+            </ul><!--tab_menu_list25-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad26" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              주민자치회
+              <label for="aco_rad26" class="tab_lab_open tab_lab">
+               <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad26" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list26 tab_list">
+              <li><a href="#!">추진배경 및 방향</a></li>
+              <li><a href="#!">설치/운영 및 체계도</a></li>
+              <li><a href="#!">주민자치회 현황</a></li>
+              <li><a href="#!">주민자치회 소식</a></li>
+              <li><a href="#!">우수사례</a></li>
+              <li><a href="#!">활동갤러리</a></li>
+              <li><a href="#!">주민자치위원회 구성</a></li>
+              <li><a href="#!">회의록</a></li>
+              <li><a href="#!">주민자치위원회 활동</a></li>
+              <li><a href="#!">운영프로그램</a></li>
+            </ul><!--tab_menu_list26-->
+          </li><!--tab_li_box-->
+        </ul><!--sheet04-->
+
+        <ul class="sheet05">
+          
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             경제
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+            
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             일자리·교육
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+ 
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             사회복지
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+             
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             보건·건강
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+                        
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             도시·건축
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+                        
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             안전
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+                        
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             환경보호
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+                        
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             교통·물류
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             해양농수산
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             행정
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             문화체육관광
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+        </ul><!--sheet05-->
+      </div><!--ham_tab_sheet-->
+    </div><!--tab_box-->
+  </section><!--ham_box-->
+
+  <section class="route">
+    <div>
+      <p><a href="../index.html"></a><i class="fa-solid fa-house"></i></p>
+      <p><i class="fa-solid fa-chevron-right"></i></p>
+      <p><a href="#!">부산소개</p></a> 
+      <p><i class="fa-solid fa-chevron-right"></i></p>
+      <p><a href="#!"> 부산의 인물</a></p>
+      <p><i class="fa-solid fa-chevron-right"></i></p>
+      <p><a href="#!">향토수호(충신)</a> </p>
+    </div>
+
+    <div class="linkheart">
+      <p><i class="fa-solid fa-heart"></i></p>
+      <p><i class="fa-solid fa-circle-nodes"></i></p>
+    </div><!--linkheart-->
+  </section><!--route-->
+
+  
+  
+  <div class="wrap">
+    <section class="main_box">
+
+      <div class="title">
+        향토수호(충신)
+      </div>
+
+      <section class="loyalist_box">
+        <div class="loyalist_mobile">
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk01" checked>
+
+            <ul class="loyal_lab">
+              <div><img src="./images/송상현_s.jpg" alt="송상현썸네일이미지"></div>
+              <p>송상현</p>
+              <p>1551년 ~ 1592년</p>
+              <label for="btn_loyal_chk01" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk01" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/송상현.jpg" alt="송상현이미지">
+              </div>
+              <p>
+                임진왜란 때 동래읍성 전투에서 순절한 문신. <br/>
+                임진왜란 8개월 전인 1591년 8월 동래부사로 임명됨.<br/>
+                임진왜란 당시 동래읍성에서 왜군의 공격에 끝까지 항전하다가 순절함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 1.송상현-->
+
+
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk02">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/노개방_s.jpg" alt="노개방썸네일이미지"></div>
+              <p>노개방</p>
+              <p>1551년 ~ 1592년</p>
+              <label for="btn_loyal_chk02" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk02" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/노개방.jpg" alt="노개방이미지">
+              </div>
+              <p>
+                임진왜란 때 동래읍성 전투에서 순절한 문신. <br/>
+                1588년 과거급제 후 동래부 교수(敎授)근무함 .<br/>
+                임진왜란 당시 정원루에서 왜군과 항거하다가 동래부사 송상현 등과 함께 순절함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 2.노개방-->
+
+
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk03">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/조영규_s.jpg" alt="조영규썸네일이미지"></div>
+              <p>조영규</p>
+              <p>1535년 ~ 1592년</p>
+              <label for="btn_loyal_chk03" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk03" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/조영규.jpg" alt="조영규이미지">
+              </div>
+              <p>
+                임진왜란 때 동래읍성 전투에서 순절한 문신. <br/>
+                1592년 양산군수로 있을 때 왜군이 부산을 진격한다는 소식을 듣고
+                곧장 달려가 동래부사 송상현과 동래읍성에서 항전하다가 순절함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 3.조영규-->
+
+
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk04">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/정발_s.jpg" alt="정발썸네일이미지"></div>
+              <p>정발</p>
+              <p>1553년 ~ 1592년</p>
+              <label for="btn_loyal_chk04" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk04" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/정발.jpg" alt="정발이미지">
+              </div>
+              <p>
+                임진왜란 때 부산진성 전투에서 순절한 문신. <br/>
+                1577년 무과에 급제하였고, 1592년 부산진성의 사령관격인 부산진첨절제사로 임명됨. 왜군이 부산진성을 공격하자 군·관·민을 독려하여 끝까지 싸우다 순절함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 4.정발-->
+
+
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk05">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/이정현_s.jpg" alt="이정현썸네일이미지"></div>
+              <p>이정현</p>
+              <p>? ~ 1592년</p>
+              <label for="btn_loyal_chk05" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk05" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/이정현.jpg" alt="이정현이미지">
+              </div>
+              <p>
+                임진왜란 때 부산진성 전투에서 순절한 문신. <br/>
+                1591년 무과에 급제한 후 정발을 도와 적의 침입을 방어하는 장수(조방장)가 됨. 왜군이 부산진성을 공격하자 정발과 함께 
+                항전하다가 순절함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 5.이정현-->
+
+
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk06">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/윤흥신_s.jpg" alt="윤흥신썸네일이미지"></div>
+              <p>윤흥신</p>
+              <p>? ~ 1592년</p>
+              <label for="btn_loyal_chk06" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk06" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/윤흥신.jpg" alt="윤흥신이미지">
+              </div>
+              <p>
+                임진왜란 때 다대진성 전투에서 순절한 문신. <br/>
+              1592년 다대진 첨절제사에 임명됨. 왜군이 부산진성 함락 후 다대진성을 공격하자, 동생 윤흥제와 함께 싸우다 순절함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 6.윤흥신-->
+
+
+          
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk07">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/임란 동래 24공신_s.jpg" alt="24공신썸네일이미지"></div>
+              <p><span>임란동래24공신</span></p>
+              <p><span>? ~ 임란이후</span></p>
+              <label for="btn_loyal_chk07" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk07" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/임란 동래 24공신.jpg" alt="24공신이미지">
+              </div>
+              <p>
+                임진왜란때 전국에서 왜군과 싸우다 전사한 동래부민 24명.  
+                임진왜란 때 동래읍성이 함락된 후 동래부민드은 고향을 떠나 전국 각지에서 봉기하고 있던 의병에 참가하여 항전함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 7.임란동래 24공신-->
+
+
+
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk08">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/수영25의 용_s.jpg" alt="수영25썸네일이미지"></div>
+              <p><span>수영25의 용</span></p>
+              <p><span>? ~ 임란이후</span></p>
+              <label for="btn_loyal_chk08" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk08" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/수영25의용.jpg" alt="수영25이미지">
+              </div>
+              <p>
+                임진왜란 때 좌수영성에서 왜군에 저항한 25인.<br/> 
+                임진왜란 때 좌수영의 수군과 성민25인은 죽기를 각오하고 유격전으로 왜군에 대항하다가 순절함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 8.수영25의 용-->
+
+
+          
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk09">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/사명대사_s.jpg" alt="사명대사썸네일이미지"></div>
+              <p>사명대사</p>
+              <p>1554년 ~ 1610년 </p>
+              <label for="btn_loyal_chk09" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk09" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/사명대사.jpg" alt="사명대사이미지">
+              </div>
+              <p>
+                조선 중기 승려로 법명은 유정(惟政)임 <br/> 
+                임진왜란 당시 부산에서 활동하였는데, 부산진성을 수축하는데 일조함. 1604년 일본과의 외교 담판으로 3,000여명의 포로와 함께 귀국함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 9.사명대사-->
+
+
+            
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk10">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/박인로_s.jpg" alt="박인로썸네일이미지"></div>
+              <p>박인로</p>
+              <p>1561년 ~ 1642년</p>
+              <label for="btn_loyal_chk10" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk10" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/박인로.jpg" alt="박인로이미지">
+              </div>
+              <p>
+                조선 후기 경상좌수영 통주사를 지낸 무신.<br/> 
+                임진왜란 때 의병 활동 전개함. 정유재란이 끝난 뒤에도 우리나라 바다에서 철수하지 않은 왜군을 격퇴함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 10.박인로-->
+
+
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk11">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/안용복_s.jpg" alt="안용복썸네일이미지"></div>
+              <p>안용복</p>
+              <p>? ~ ?</p>
+              <label for="btn_loyal_chk11" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk11" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/안용복.jpg" alt="안용복이미지">
+              </div>
+              <p>
+                조선 후기에 울릉도와 독도를 수호한 어부.<br/> 
+                1693년과 1696년 두 차례에 걸쳐 일본으로 건너가 울릉도와 독도가 조선 땅임을 자인하도록 활약함. 
+              </p>
+            </ul>
+          </ul><!--loyal_border 11.안용복-->
+
+
+          
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk12">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/이안눌_s.jpg" alt="이안눌썸네일이미지"></div>
+              <p>이안눌</p>
+              <p>1571년 ~ 1637년</p>
+              <label for="btn_loyal_chk12" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk12" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/이안눌.jpg" alt="이안눌이미지">
+              </div>
+              <p>
+                조선 후기 동래부사를 지낸 문신.<br/> 
+                1608년에 동래부사로 임명됨. 동래부사 재임 시 임진왜란으로 폐허가 된 부산지역을 복구하고 민심을 다독이는 데 힘씀.
+              </p>
+            </ul>
+          </ul><!--loyal_border 12.이안눌-->
+
+
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk13">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/조엄_s.jpg" alt="조엄썸네일이미지"></div>
+              <p>조엄</p>
+              <p>1719년 ~ 1777년</p>
+              <label for="btn_loyal_chk13" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk13" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/조엄.jpg" alt="조엄이미지">
+              </div>
+              <p>
+                조선 후기 동래부사를 지낸 문신.<br/> 
+                1757년에 동래부사로 부임하여 대일 외교와 무역 과정에서 발생한 폐단을 바로잡음. 1763년 통신사로 일본에 다녀오면서 고구마를 가져와 재배토록 함.
+              </p>
+            </ul>
+          </ul><!--loyal_border 13.조엄-->
+
+          
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk14">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/강필리_s.jpg" alt="강필리썸네일이미지"></div>
+              <p>강필리</p>
+              <p>1713년 ~ 1767년</p>
+              <label for="btn_loyal_chk14" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk14" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/강필리.jpg" alt="강필리이미지">
+              </div>
+              <p>
+                조선 후기 동래부사를 지낸 문신.<br/> 
+                1764년 동래부사로 부임하여 처음으로 고구마 재배에 성공하고 고구마 재배를 권장하기 위해 『감저보』를 저술함. 동래온천을 대대적으로 개축‧증축함. 
+              </p>
+            </ul>
+          </ul><!--loyal_border 14.강필리-->
+
+
+          <ul class="loyal_border">
+            <input type="checkbox" id="btn_loyal_chk15">
+
+            <ul class="loyal_lab">
+              <div><img src="./images/정현덕_s.jpg" alt="정현덕썸네일이미지"></div>
+              <p>정현덕</p>
+              <p>1810년 ~ 1883년</p>
+              <label for="btn_loyal_chk15" class="loyal_open"><i class="fa-solid fa-chevron-down"></i></label>
+              <label for="btn_loyal_chk15" class="loyal_close"><i class="fa-solid fa-chevron-up"></i></label>
+            </ul>
+
+            <ul class="loyal_list">
+              <div>
+                <img src="./images/정현덕.jpg" alt="정현덕이미지">
+              </div>
+              <p>
+                조선 후기 동래부사를 지낸 문신.<br/> 
+                1867년에 동래부사로 부임하여 동래읍성을 개축하고 관아의 대문인 독진대아문을 중수함. 군사 훈련 등 유사시를 위한 대비도 철저히 함. 
+              </p>
+            </ul>
+          </ul><!--loyal_border 14.강필리-->
+        </div><!--loyalist_mobile-->
+
+
+        <div class="loyalist_tabweb">
+          <section class="slider-for">
+            <div>
+              <div><img src="./images/송상현.jpg"></div>
+              <p class="text_box01">
+                송상현(宋象賢)<br/>
+                1551년 ~ 1592년
+              </p>
+              <p class="text_box02">
+                임진왜란 때 동래읍성 전투에서 순절한 문신.<br/>임진왜란 8개월 전인 1591년 8월 동래부사로 임명됨.<br/> 임진왜란 당시 동래읍성에서 왜군의 공격에 끝까지 항전하다가 순절함.
+              </p>
+            </div>
+            <div>
+              <img src="./images/노개방.jpg">
+              <p class="text_box01">
+                노개방(盧蓋邦)<br/>
+                1563년 ~ 1592년
+              </p>
+              <p class="text_box02">
+                임진왜란 때 동래읍성 전투에서 순절한 문신.<br/> 1588년 과거 급제 후 동래부 교수(敎授) 근무함.<br/> 임진왜란 당시 동래읍성 정원루에서 왜군과 항거하다가 동래부사 송상현 등과 함께 순절함.
+              </p>
+            </div>
+            <div>
+              <img src="./images/조영규.jpg">
+              <p class="text_box01">
+                조영규(趙英圭)<br/>
+                1535년 ~ 1592년
+              </p>
+              <p class="text_box02">
+                임진왜란 때 동래읍성 전투에서 순절한 무신.<br/> 1592년 양산군수로 있을 때 왜군이 부산을 진격한다는 소식을 듣고 곧장 달려가 동래부사 송상현과 동래읍성에서 항전하다가 순절함. 
+              </p>
+            </div>
+            <div>
+              <img src="./images/정발.jpg">
+              <p class="text_box01">
+                정발(鄭撥)<br/>
+                1553년 ~ 1592년
+              </p>
+              <p class="text_box02">
+                임진왜란 때 부산진성 전투에서 순절한 무신.<br/> 1577년 무과에 급제하였고, 1592년 부산진성의 사령관격인 부산진첨절제사로 임명됨. 왜군이 부산진성을 공격하자 군‧관‧민을 독려하여 끝까지 싸우다 순절함.
+              </p>
+            </div>
+            <div>
+              <img src="./images/이정현.jpg">
+              <p class="text_box01">
+                이정헌(李庭憲)<br/>
+                ? ~ 1592년
+              </p>
+              <p class="text_box02">
+                임진왜란 때 부산진성 전투에서 순절한 무신.<br/> 1591년 무과에 급한 후 정발을 도와 적의 침입을 방어하는 장수(조방장)가 됨. 왜군이 부산진성을 공격하자 정발과 함께 항전하다가 순절함
+              </p>
+            </div>
+            <div>
+              <img src="./images/윤흥신.jpg">
+              <p class="text_box01">
+                윤흥신(尹興信)<br/>
+                ? ~ 1592년
+              </p>
+              <p class="text_box02">
+                임진왜란 때 다대진성 전투에서 순절한 문신.<br/> 1592년 다대진 첨절제사에 임명됨. 왜군이 부산진성 함락 후 다대진성을 공격하자, 동생 윤흥제와 함께 싸우다 순절함.
+              </p>
+            </div>
+            <div>
+              <img src="./images/임란 동래 24공신.jpg">
+              <p class="text_box01">
+                임란 동래 24공신(功臣)<br/>
+                ? ~ 임란이후
+              </p>
+              <p class="text_box02">
+                임진왜란 때 전국에서 왜군과 싸우다가 전사한 동래부민 24명.<br/> 임진왜란 때 동래읍성이 함락된 후 동래부민들은 고향을 떠나 전국 각지에서 봉기하고 있던 의병에 참가하여 항전함.
+              </p>
+            </div>
+            <div>
+              <img src="./images/수영25의용.jpg">
+              <p class="text_box01">
+                수영25의용(義勇)<br/>
+                ? ~ 임란이후
+              </p>
+              <p class="text_box02">
+                임진왜란 때 좌수영성에서 왜군에 저항한 25인.<br/> 임진왜란 때 좌수영의 수군과 성민 25인은 죽기를 각오하고 유격전으로 왜군에 대항하다가 순절함.
+              </p>
+            </div>
+            <div>
+              <img src="./images/사명대사.jpg">
+              <p class="text_box01">
+                사명대사(四溟大師)<br/>
+                1544년 ~ 1610년
+              </p>
+              <p class="text_box02">
+                조선 중기 승려로 법명은 유정(惟政)임.<br/> 임진왜란 당시 부산에서 활동하였는데, 부산진성을 수축하는데 일조함. 1604년 일본과의 외교 담판으로 3,000여명의 포로와 함께 귀국함.
+              </p>
+            </div>
+            <div>
+              <img src="./images/박인로.jpg">
+              <p class="text_box01">
+                박인로(朴仁老)<br/>
+                1561년 ~ 1642년
+              </p>
+              <p class="text_box02">
+                조선 후기 경상좌수영 통주사를 지낸 무신.<br/>임진왜란 때 의병 활동 전개함. 정유재란이 끝난 뒤에도 우리나라 바다에서 철수하지 않은 왜군을 격퇴함.
+              </p>
+            </div>
+            <div>
+              <img src="./images/안용복.jpg">
+              <p class="text_box01">
+                안용복(安龍福)<br/>
+                ? ~ ?
+              </p>
+              <p class="text_box02">
+                조선 후기에 울릉도와 독도를 수호한 어부.<br/> 1693년과 1696년 두 차례에 걸쳐 일본으로 건너가 울릉도와 독도가 조선 땅임을 자인하도록 활약함. 
+              </p>
+            </div>
+            <div>
+              <img src="./images/이안눌.jpg">
+              <p class="text_box01">
+                이안눌(李安訥)<br/>
+                1571년 ~ 1637년
+              </p>
+              <p class="text_box02">
+                조선 후기 동래부사를 지낸 문신.<br/> 1608년에 동래부사로 임명됨. 동래부사 재임 시 임진왜란으로 폐허가 된 부산지역을 복구하고 민심을 다독이는 데 힘씀.
+              </p>
+            </div>
+            <div>
+              <img src="./images/조엄.jpg">
+              <p class="text_box01">
+                조엄(趙曮)<br/>
+                1719년 ~ 1777년
+              </p>
+              <p class="text_box02">
+                조선 후기 동래부사를 지낸 문신.<br/> 1757년에 동래부사로 부임하여 대일 외교와 무역 과정에서 발생한 폐단을 바로잡음. 1763년 통신사로 일본에 다녀오면서 고구마를 가져와 재배토록 함.
+              </p>
+            </div>
+            <div>
+              <img src="./images/강필리.jpg">
+              <p class="text_box01">
+                강필리(姜必履)<br/>
+                1713년 ~ 1767년
+              </p>
+              <p class="text_box02">
+                조선 후기 동래부사를 지낸 문신.<br/>1764년 동래부사로 부임하여 처음으로 고구마 재배에 성공하고 고구마 재배를 권장하기 위해 『감저보』를 저술함. 동래온천을 대대적으로 개축‧증축함. 
+              </p>
+            </div>
+            <div>
+              <img src="./images/정현덕.jpg">
+              <p class="text_box01">
+                정현덕(鄭顯德)<br/>
+                1810년 ~ 1883년
+              </p>
+              <p class="text_box02">
+                조선 후기 동래부사를 지낸 문신.<br/> 1867년에 동래부사로 부임하여 동래읍성을 개축하고 관아의 대문인 독진대아문을 중수함. 군사 훈련 등 유사시를 위한 대비도 철저히 함.
+              </p>
+            </div>
+          </section>
+        
+          <section class="slider-nav">
+            <div>
+              <img src="./images/송상현_s.jpg">
+            </div>
+            <div>
+              <img src="./images/노개방_s.jpg">
+            </div>
+            <div>
+              <img src="./images/조영규_s.jpg">
+            </div>
+            <div>
+              <img src="./images/정발_s.jpg">
+            </div>
+            <div>
+              <img src="./images/이정현_s.jpg">
+            </div>
+            <div>
+              <img src="./images/윤흥신_s.jpg">
+            </div>
+            <div>
+              <img src="./images/임란 동래 24공신_s.jpg">
+            </div>
+            <div>
+              <img src="./images/수영25의 용_s.jpg">
+            </div>
+            <div>
+              <img src="./images/사명대사_s.jpg">
+            </div>
+            <div>
+              <img src="./images/박인로_s.jpg">
+            </div>
+            <div>
+              <img src="./images/안용복_s.jpg">
+            </div>
+            <div>
+              <img src="./images/이안눌_s.jpg">
+            </div>
+            <div>
+              <img src="./images/조엄_s.jpg">
+            </div>
+            <div>
+              <img src="images/강필리_s.jpg">
+            </div>
+            <div>
+              <img src="images/정현덕_s.jpg">
+            </div>
+          </section>
+
+
+        </div><!--loyalist_tabweb-->
+
+
+
+
+        <div class="loyalist_txt">
+          <p>* 부산의 인물은 『부산을 빛낸 인물』(전3권, 2001년~2003년) 수록 인물을 분야별로 재정리함.</p>
+          <p>** 부산의 인물에 관한 자세한 것은 부산소개 > 부산의 역사 > 향토사도서관을 이용하세요.</p>
+          <div><a href="#!">부산을 빛낸 인물 E-Book보기</a> </div>
+        </div>
+      </section><!--loyalist_box-->
+
+
+      <section class="data_management">
+        <div>자료관리 담당</div>
+        <div>
+          <p class="first_p">문화유산과</p>
+          <p class="second_p">이연심 (051-888-5058)</p>
+        </div>
+        <div>
+          <p class="first_p">최근업데이트</p>
+          <p class="second_p">2021-08-20</p>
+        </div>
+      </section><!--data_management-->
+
+
+      <section class="page_satisfy">
+        <div class="page_first">
+          <p>이 페이지에서 제공하는 정보에 만족하십니까?</p>
+          <p>평균: 5점 참여: 2명</p>
+        </div>
+
+        <div class="page_second">
+          <p><input type="radio" name="grade" checked> 매우만족</p>
+          <p><input type="radio" name="grade"> 만족</p>
+          <p><input type="radio" name="grade"> 보통</p>
+          <p><input type="radio" name="grade"> 불만</p>
+          <p><input type="radio" name="grade"> 매우불만</p>
+        <button>평점주기</button>
+        </div>
+
+        <div class="page_txt">
+          댓글은 자유로운 의견 공유를 위한 장이므로 부산시에 대한 신고, 제안, 건의 등 답변이나 개선이 필요한 사항에 대해서는
+          <span>부산민원 120 - 민원신청</span> 새창열림 아이콘 을 이용해 주시고, 내용 입력시 주민등록번호, 연락처 등 개인정보가 노출되지 않도록 주의하여 주시기 바랍니다.<br/><br/>
+          
+          상업광고, 저속한 표현, 정치적 내용, 개인정보 노출 등은 별도의 통보없이 삭제될 수 있습니다.
+        </div>
+      </section><!--page_satisfy-->
+
+
+
+      <section class="comment">
+        <div class="comment_sns">
+          <div><img src="./images/commment_sns01.png" alt="sns01"></div>
+          <div><img src="./images/commment_sns02.png" alt="sns02"></div>
+          <div><img src="./images/commment_sns03.png" alt="sns03"></div>
+          <div><img src="./images/commment_sns04.png" alt="sns04"></div>
+          <div><img src="./images/commment_sns05.png" alt="sns05"></div>
+        </div><!--comment_sns-->
+
+        <div class="com_box">
+          <input type="text" placeholder="댓글을 입력해 주세요.">
+          <p>등록</p>
+        </div><!--com_box-->
+
+        <div class="com_title">
+          <p>댓글<span>2</span></p>
+          <p>최신순</p>
+          <p>과거순</p>
+          <p>공감순</p>
+        </div><!--com_title-->
+
+        <div class="com_txt">
+          <div class="com_txt_first">
+            <p>길동</p>
+            <div>
+              <p><img src="./images/commment_sns02.png" alt=""></p>
+              <p>홍길동</p>
+            </div>
+          </div>
+
+          <div class="com_txt_second">
+            자료 감사합니다!
+          </div>
+
+          <div class="com_txt_third">
+            <p>답글</p>
+            <div>0</div>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div><!--com_txt-->
+
+
+        <div class="com_txt">
+          <div class="com_txt_first">
+            <p>순신</p>
+            <div>
+              <p><img src="./images/commment_sns01.png" alt=""></p>
+              <p>이순신</p>
+            </div>
+          </div>
+
+          <div class="com_txt_second">
+            제가 찾던 정보에요 감사합니다~ : )
+          </div>
+
+          <div class="com_txt_third">
+            <p>답글</p>
+            <div>0</div>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div><!--com_txt-->
+
+        <div class="com_txt_fourth">
+          시정관련 건의사항 또는 답변을 원하는 사항은 부산민원 120 민원신청을 이용하여 주세요.
+        </div><!--com_txt_fourth-->
+      </section><!--comment-->
+    </section><!--main_box-->
+
+
+    <aside class="aside_box">
+      <div class="aside_title">부산소개</div>
+
+      <ul class="aside_menu">
+
+        <li class="menu_list_box">
+          <input type="checkbox" id="menu_chk01" >
+          
+            <ul class="menu_label">
+            <a href="#!">부산의 인물</a> 
+              <label for="menu_chk01" class="btn_right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </label>
+
+              <label for="menu_chk01" class="btn_down">
+                <i class="fa-solid fa-chevron-down"></i>
+              </label>
+            </ul>
+
+            <div class="menu_list01 menu_list">
+              <ul>
+                <li><a href="#!">향토수호(충신)</a></li>
+                <li><a href="#!">독립운동가</a></li>
+                <li><a href="#!">학자 및 교육자</a></li>
+                <li><a href="#!">사회운동가</a></li>
+                <li><a href="#!">기업인</a></li>
+                <li><a href="#!">문화예술인</a></li>
+                <li><a href="#!">부산광역시 문화상</a></li>
+                <li><a href="#!">자랑스러운 시민상</a></li>
+                <li><a href="#!">부산광역시 명예시민</a></li>
+              </ul>
+            </div><!--menu_list01-->
+        </li><!--menu_list-->
+
+        <li class="menu_list_box">
+          <input type="checkbox" id="menu_chk02" >
+          
+            <ul class="menu_label">
+            <a href="#!">부산의 오늘</a> 
+              <label for="menu_chk02" class="btn_right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </label>
+
+              <label for="menu_chk02" class="btn_down">
+                <i class="fa-solid fa-chevron-down"></i>
+              </label>
+            </ul>
+
+            <div class="menu_list02 menu_list">
+              <ul>
+                <li><a href="#!">도시비전과 목표</a></li>
+                <li><a href="#!">기본현황</a></li>
+                <li><a href="#!">행정구역/지도</a></li>
+                <li><a href="#!">국제교류 및 자매도시</a></li>
+              </ul>
+            </div><!--menu_list02-->
+        </li><!--menu_list-->
+
+        <li class="menu_list_box">
+          <input type="checkbox" id="menu_chk03" >
+          
+            <ul class="menu_label">
+            <a href="#!">부산의 상징</a> 
+              <label for="menu_chk03" class="btn_right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </label>
+
+              <label for="menu_chk03" class="btn_down">
+                <i class="fa-solid fa-chevron-down"></i>
+              </label>
+            </ul>
+
+            <div class="menu_list03 menu_list">
+              <ul>
+                <li><a href="#!">지역상징</a></li>
+                <li><a href="#!">기관상징</a></li>
+                <li><a href="#!">부산체</a></li>
+                <li><a href="#!">부산시민헌장</a></li>
+                <li><a href="#!">부산찬가</a></li>
+                <li><a href="#!">부산시민의 날</a></li>
+              </ul>
+            </div><!--menu_list03-->
+        </li><!--menu_list-->
+
+        <li class="menu_list_box">
+          <input type="checkbox" id="menu_chk04" >
+          
+            <ul class="menu_label">
+            <a href="#!">부산시청 안내</a> 
+              <label for="menu_chk04" class="btn_right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </label>
+
+              <label for="menu_chk04" class="btn_down">
+                <i class="fa-solid fa-chevron-down"></i>
+              </label>
+            </ul>
+
+            <div class="menu_list04 menu_list">
+              <ul>
+                <li><a href="#!">시청사 안내</a></li>
+                <li><a href="#!">전화번호 안내</a></li>
+                <li><a href="#!">조직도</a></li>
+                <li><a href="#!">시설운영 안내</a></li>
+                <li><a href="#!">시청사 견학</a></li>
+                <li><a href="#!">시청 전시실 대관</a></li>
+                <li><a href="#!">공기업·출자·출연기관</a></li>
+              </ul>
+            </div><!--menu_list04-->
+        </li><!--menu_list-->
+
+        <li class="menu_list_box">
+          <input type="checkbox" id="menu_chk05" >
+          
+            <ul class="menu_label">
+            <a href="#!">부산의 역사</a> 
+              <label for="menu_chk05" class="btn_right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </label>
+
+              <label for="menu_chk05" class="btn_down">
+                <i class="fa-solid fa-chevron-down"></i>
+              </label>
+            </ul>
+
+            <div class="menu_list05 menu_list">
+              <ul>
+                <li><a href="#!">명칭유래</a></li>
+                <li><a href="#!">시대별 부산역사</a></li>
+                <li><a href="#!">문화재</a></li>
+                <li><a href="#!">부산의 주요 경승지</a></li>
+                <li><a href="#!">시정역사</a></li>
+                <li><a href="#!">역대시장</a></li>
+                <li><a href="#!">연혁</a></li>
+                <li><a href="#!">향토사도서관</a></li>
+                <li><a href="#!">부산역사문화대전</a></li>
+                <li><a href="#!">항공사진으로 본 역사</a></li>
+              </ul>
+            </div><!--menu_list05-->
+        </li><!--menu_list-->
+
+
+        <li class="menu_list_box">
+          <input type="checkbox" id="menu_chk06" >
+          
+            <ul class="menu_label">
+            <a href="#!">부산통계</a> 
+              <label for="menu_chk06" class="btn_right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </label>
+
+              <label for="menu_chk06" class="btn_down">
+                <i class="fa-solid fa-chevron-down"></i>
+              </label>
+            </ul>
+
+            <div class="menu_list06 menu_list">
+              <ul>
+                <li><a href="#!">통계로 보는 부산</a></li>
+                <li><a href="#!">시민공감지도</a></li>
+                <li><a href="#!">통계소식</a></li>
+                <li><a href="#!">통계자료실</a></li>
+                <li><a href="#!">통계의 이해 </a></li>
+              </ul>
+            </div><!--menu_list06-->
+        </li><!--menu_list-->
+
+
+        <li class="menu_list_box">
+          <input type="checkbox" id="menu_chk07" >
+          
+            <ul class="menu_label">
+            <a href="#!">시민행복지표</a> 
+              <label for="menu_chk07" class="btn_right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </label>
+
+              <label for="menu_chk07" class="btn_down">
+                <i class="fa-solid fa-chevron-down"></i>
+              </label>
+            </ul>
+
+            <div class="menu_list07 menu_list">
+              <ul>
+                <li><a href="#!">시민행복지표란?</a></li>
+                <li><a href="#!">시민행복지표 소개</a></li>
+                <li><a href="#!">시민행복지표 현황</a></li>
+              </ul>
+            </div><!--menu_list07-->
+        </li><!--menu_list-->
+
+        
+
+        <li class="menu_list_box">
+          <input type="checkbox" id="menu_chk08" >
+          
+            <ul class="menu_label">
+            <a href="#!">도시브랜드</a> 
+              <label for="menu_chk08" class="btn_right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </label>
+
+              <label for="menu_chk08" class="btn_down">
+                <i class="fa-solid fa-chevron-down"></i>
+              </label>
+            </ul>
+
+            <div class="menu_list08 menu_list">
+              <ul>
+                <li><a href="#!">도시브랜드</a></li>
+                <li><a href="#!">부산브랜드웹툰</a></li>
+                <li><a href="#!">부산기네스125선</a></li>
+                <li><a href="#!">소통 캐릭터</a></li>
+                <li><a href="#!">부산관광브랜드</a></li>
+              </ul>
+            </div><!--menu_list08-->
+        </li><!--menu_list-->
+
+        <li class="menu_list_box">
+          <input type="checkbox" id="menu_chk09">
+          
+            <ul class="menu_label">
+              <a href="#!">주민자치회</a> 
+              <label for="menu_chk09" class="btn_right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </label>
+
+              <label for="menu_chk09" class="btn_down">
+                <i class="fa-solid fa-chevron-down"></i>
+              </label>
+            </ul>
+
+            <div class="menu_list09 menu_list">
+              <ul>
+                <li><a href="#!">추진배경 및 방향</a></li>
+                <li><a href="#!">설치/운영 및 체계도</a></li>
+                <li><a href="#!">주민자치회 현황</a></li>
+                <li><a href="#!">주민자치회 소식</a></li>
+                <li><a href="#!">우수사례</a></li>
+                <li><a href="#!">활동사진첩</a></li>
+                <li><a href="#!">주민자치위원회 구성</a></li>
+                <li><a href="#!">회의록</a></li>
+                <li><a href="#!">주민자치위원회 활동</a></li>
+                <li><a href="#!">운영프로그램</a></li>
+              </ul>
+            </div><!--menu_list09-->
+        </li><!--menu_list-->
+      </ul><!--aside_menu-->
+
+    </aside><!--aside_box-->
+  </div><!--wrap-->
+
+
+
+
+
+  <footer class="footer">
+    <div class="footer_top_box">
+      <div class="footer_top01">
+        <input type="checkbox" id="footer_chk01">
+
+        <div class="footer_lab">
+          <p>사업소 사이트</p>
+          <label for="footer_chk01" class="btn_f_open"><i class="fa-solid fa-chevron-down"></i></label>
+          <label for="footer_chk01" class="btn_f_close"><i class="fa-solid fa-chevron-up"></i></label>
+        </div>
+
+        <div class="footer_top_list01">
+          <p>건설본부</p>
+          <p>건설안전시험사업소</p>
+          <p>국제수산물유통시설관리사업소</p>
+          <p>금련산청소년수련원</p>
+          <p>교통서비스센터</p>
+          <p>낙동강관리본부</p>
+          <p>낙동강하구에코센터</p>
+          <p>남향관리사업소</p>
+          <p>농업기술센터</p>
+          <p>반여농산물도매시장관리사업소</p>
+          <p>보건환경연구원</p>
+          <p>부산근현대역사관</p>
+          <p>부산도서관</p>
+          <p>부산시립박물관</p>
+          <p>부산현대박물관</p>
+          <p>서울본부</p>
+          <p>소방재난본부</p>
+          <p>시립미술관</p>
+          <p>수산자원연구소</p>
+          <p>아동보호종합센터</p>
+          <p>인재개발원</p>
+          <p>엄궁농산물도매시장관리사업소</p>
+          <p>여성회관</p>
+          <p>여성문호회관</p>
+          <p>차량등록사업소</p>
+          <p>체육시설관리사업소</p>
+          <p>푸른도시가꾸기사업소</p>
+          <p>해양자연사박물관</p>
+        </div><!--footer_top_list01-->
+      </div><!--footer_top01-->
+
+      
+      <div class="footer_top02">
+        <input type="checkbox" id="footer_chk02">
+
+        <div class="footer_lab">
+          <p>관련사이트</p>
+          <label for="footer_chk02" class="btn_f_open"><i class="fa-solid fa-chevron-down"></i></label>
+          <label for="footer_chk02" class="btn_f_close"><i class="fa-solid fa-chevron-up"></i></label>
+        </div>
+
+        <div class="footer_top_list02">
+          <p>국제자매도시</p>
+          <p>부산소재 공공기관</p>
+          <p>부산광역시의회</p>
+          <p>시 관련 홈페이지</p>
+          <p>시·도 홈페이지</p>
+          <p>유관기관 및 타기관</p>
+          <p>자치구·군</p>
+          <p>자치구·군·의회</p>
+          <p>지방공기업</p>
+          <p>출자·출연기관</p>
+        </div><!--footer_top_list02-->
+      </div><!--footer_top02-->
+      
+    </div><!--footer_top_box-->
+
+    <nav class="footer_mid">
+      <ul class="mid_topmid_box">
+
+        <ul class="mid_top">
+          <ul>
+            <li>약관 &nbsp;</li>
+            <li>| 홈페이지 저작권 보호정책&nbsp;</li>
+          </ul>
+
+          <ul>
+            <li>| 개인정도처리방침&nbsp; </li>
+            <li>| 행정서비스헌장&nbsp;</li>
+          </ul>
+
+          <ul>
+            <li>| 뷰어다운로드&nbsp;</li>
+            <li>| 홈페이지 모니터</li>
+          </ul>
+        </ul><!--mid_top-->
+
+
+
+        <ul class="logomid_box">
+          <ul class="footer_logo">
+            <img src="./images/footer_logo.png" alt="풋터로고">
+          </ul>
+
+
+          <ul class="mid_mid">
+            <ul>(우 47545)부산광역시 연제구 중앙대로 1001(연산동)</ul>
+
+            <ul>
+              <li><a href="#!">시청 찾아오시는길</a></li>
+              <li><a href="#!">주차안내</a></li>
+              <li><a href="#!">이용안내</a></li>
+            </ul>
+            
+            <ul>
+              본 페이지에 게시된 이메일 주소가 자동 수집되는 것을 거부하며, 이를 위반시 개인정보 보호법에 의해 처벌됨을 유념하시기 바랍니다.
+            </ul>
+
+            <ul>
+            Copyrightⓒ Busan Metropolitan City. All rights reserved
+            </ul>
+          </ul><!--mid_mid-->
+        </ul><!--logomid_box-->
+      </ul><!--mid_topmid_box-->
+
+      <ul class="mid_bottom">
+        <ul class="mid_bot_sns">
+          <li><img src="./images/footer_sns01.png" alt="sns01"></li>
+          <li><img src="./images/footer_sns02.png" alt=""></li>
+          <li><img src="./images/footer_sns03.png" alt=""></li>
+          <li><img src="./images/footer_sns04.png" alt=""></li>
+          <li><img src="./images/footer_sns05.jpg" alt=""></li>
+          <li><img src="./images/footer_sns06.png" alt=""></li>
+          <li><img src="./images/footer_sns07.jpg" alt=""></li>
+          <li><img src="./images/footer_sns08.png" alt=""></li>
+        </ul>
+
+        <ul class="mid_bot_call">
+          <li><span>부산시 120콜센터</span>(지역번호051)</li>
+          <li>051-120</li>
+        </ul>
+        
+        <ul>
+          평일 08:30 ~ 18:30 야간 공휴일 당직실 전환
+        </ul>
+
+        <ul>
+          <img src="./images/footer_mid_bottom(logo).png" alt="과학정보통신부 로고">
+        </ul>
+      </ul><!--mid_bottom-->
+    </nav><!--footer_mid-->
+  </footer><!--footer-->
+
+
+  <a href="#header" class="btn_top">TOP</a>
+</body>
+</html>

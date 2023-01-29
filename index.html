@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main_page</title>
+  <!--gsap-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+
+  <!--slick-->
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/slick-theme.css">
+  
+  <!--font-->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet"><!--Light-->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap" rel="stylesheet"><!--Bold-->
+
+  <!--font-awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+ 
+  <!--css-->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/jquery.bxslider.css">
+
+  <!--script(jQuery)-->
+  <script src="./js/jquery-3.6.1.min.js"></script>
+
+  <!--slick-->
+  <script src="./js/slick.min.js"></script>
+
+  <!--boxslider-->   
+  <script src ="./js/jquery.bxslider.min.js"></script>
+
+   <!--mousewheel-->  
+   <script src="./js/jquery.mousewheel.min.js"></script>
+
+
+  <script src="./js/main.js" defer></script>
+
+
+
+
+</head>
+<body>
+  <input type="checkbox" id="chk_search"><!--search_input-->
+
+  <section class="search_box">
+    <label for="chk_search" class="btn_search_x"><i class="fa-solid fa-x"></i></label>
+    <div class="search_in_box">
+      <input type="text" placeholder="      Search">
+      <p><i class="fa-solid fa-magnifying-glass"></i></p>
+   </div>
+  </section><!--search_box-->
+
+  <label for="chk_search" class="btn_search">
+    <p><i class="fa-solid fa-magnifying-glass"></i></p>
+    <p>Scroll down</p>
+  </label><!--search_label-->
+  
+  <div class="inner_header">
+    <header class="header" id="header">    
+      <nav class="gnb_box">
+        <a href="./index.html">
+          <ul class="logo">
+            <img src="./images/logo01_white.png" alt="로고">
+            <!-- <p>부산 먼저 미래로</p>
+            <p>그린스마트 도시 부산</p> -->
+          </ul>
+        </a>
+        <input type="checkbox" id="chk_kor">
+
+      
+
+        <ul class="gnb">
+          <li><label for="chk_kor">Kor</label></li>
+          <li><label for="chk_kor" class="btn_kor_open"><i class="fa-solid fa-chevron-down"></i></label></li>
+          <li>
+            <label for="chk_ham_box" class="lab_ham_open"><i class="fa-solid fa-bars"></i></label>
+            <label for="chk_ham_box" class="lab_ham_close"><i class="fa-solid fa-x"></i></label>
+          </li>
+        </ul>
+        <ul class="kor_list">
+          <li><a href="#!">English</a></li>
+          <li><a href="#!">日本語</a></li>
+          <li><a href="#!">简体中文</a></li>
+          <li><a href="#!">繁體中文</a></li>
+          <li><a href="#!">WorldWide</a></li>
+        </ul>
+
+        <ul class="gnb_hidden">
+          <li><a href="#!">로그인</a></li>
+          <li><a href="#!">회원가입</a></li>
+          <li><a href="#!">부서소개</a></li>
+          <li><a href="#!">사이트맵</a></li>
+        </ul>
+      </nav><!--gnb_box-->
+
+      <div class="lnb_box">
+        <nav class="lnb">
+        <ul>
+          <li><a href="./sub_page/sub_index.html">부산민원120</a></li>
+          <li><a href="./sub_page/sub_index.html">부산소식</a></li>
+          <li><a href="./sub_page/sub_index.html">정보공개</a></li>
+          <li><a href="./sub_page/sub_index.html">부산소개</a></li>
+          <li><a href="./sub_page/sub_index.html">분야별정보</a></li>
+        </ul>
+        </nav><!--lnb-->
+        
+
+        <div class="lnb_list_menu">
+          <nav>
+            <ul>
+              <li><a href="./sub_page/sub_index.html">- 민원신청</a></li>
+              <li><a href="./sub_page/sub_index.html">- 제안신청</a></li>
+              <li><a href="./sub_page/sub_index.html">- 시민참여</a></li>
+              <li><a href="./sub_page/sub_index.html">- 민원안내</a></li>
+              <li><a href="./sub_page/sub_index.html">- 120콜센터</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="./sub_page/sub_index.html">- 새소식</a></li>
+              <li><a href="./sub_page/sub_index.html">- 부산시보</a></li>
+              <li><a href="./sub_page/sub_index.html">- 보도·해명자료</a></li>
+              <li><a href="./sub_page/sub_index.html">- 공고</a></li>
+              <li><a href="./sub_page/sub_index.html">- 부산시 공식 SNS</a></li>
+              <li><a href="./sub_page/sub_index.html">- 시정사진</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="./sub_page/sub_index.html">- 주요시책</a></li>
+              <li><a href="./sub_page/sub_index.html">- 정보공개</a></li>
+              <li><a href="./sub_page/sub_index.html">- 예산</a></li>
+              <li><a href="./sub_page/sub_index.html">- 감사정보</a></li>
+              <li><a href="./sub_page/sub_index.html">- 지방공기업</a></li>
+              <li><a href="./sub_page/sub_index.html">- 계약정보</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="./sub_page/sub_index.html">- 부산의 인물</a></li>
+              <li><a href="./sub_page/sub_index.html">- 부산의 오늘</a></li>
+              <li><a href="./sub_page/sub_index.html">- 부산의 상징</a></li>
+              <li><a href="./sub_page/sub_index.html">- 부산시청 안내</a></li>
+              <li><a href="./sub_page/sub_index.html">- 부산의 역사</a></li>
+              <li><a href="./sub_page/sub_index.html">- 부산통계</a></li>
+              <li><a href="./sub_page/sub_index.html">- 시민행복지표</a></li>
+              <li><a href="./sub_page/sub_index.html">- 도시브랜드</a></li>
+              <li><a href="./sub_page/sub_index.html">- 주민자치회</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="./sub_page/sub_index.html">- 경제</a></li>
+              <li><a href="./sub_page/sub_index.html">- 일자리·교육</a></li>
+              <li><a href="./sub_page/sub_index.html">- 사회복지</a></li>
+              <li><a href="./sub_page/sub_index.html">- 보건·건강</a></li>
+              <li><a href="./sub_page/sub_index.html">- 도시·건축</a></li>
+              <li><a href="./sub_page/sub_index.html">- 안전</a></li>
+              <li><a href="./sub_page/sub_index.html">- 환경보호</a></li>
+              <li><a href="./sub_page/sub_index.html">- 교통·물류</a></li>
+              <li><a href="./sub_page/sub_index.html">- 해양농수산</a></li>
+              <li><a href="./sub_page/sub_index.html">- 행정</a></li>
+            </ul>
+          </nav>
+        </div><!--lnb_list_menu-->
+      </div><!--lnb_box-->
+    </header><!--header-->
+  </div><!--inner_header-->
+  
+  <div class="video_outer">
+    <div class="video_bg">
+      <video muted autoplay loop playsinline>
+      <source src="./images/visual_main01-00.mp4"type="video/mp4">
+      </video>
+    </div><!--video_bg-->
+  </div><!--video_outer-->
+
+
+  <section class="ham_box">    
+    <div class="loginjoin">
+      <div><a href="#!"><p>로그인</p><i class="fa-solid fa-plus"></i></a></div>
+      <div><a href="#!"><p>회원가입</p><i class="fa-solid fa-plus"></i></a></div>
+    </div>
+
+    <div class="tab_box">
+      <ul class="ham_tab">
+        <li class="on"><a href="#!">부산민원120</a></li>
+        <li><a href="#!">부산소식</a></li>
+        <li><a href="#!">정보공개</a></li>
+        <li><a href="#!">부산소개</a></li>
+        <li><a href="#!">분야별정보</a></li>
+      </ul>
+
+      <div class="ham_tab_sheet"> 
+        <ul class="sheet01 on_sheet">
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad01" name="tab_ham_li">
+            
+              <ul class="tab_ham_label">
+                민원신청
+                <label for="aco_rad01" class="tab_lab_open tab_lab">
+                  <i class="fa-solid fa-plus"></i>
+                </label>
+                <label for="aco_rad01" class="tab_lab_close tab_lab">
+                  <i class="fa-solid fa-minus"></i>
+                </label>
+              </ul>
+
+              <div class="tab_menu_list01 tab_list">
+                <ul>
+                  <li><a href="./sub_page/sub_index.html">민원신청</a></li>
+                  <li><a href="./sub_page/sub_index.html">부산민원120 이용안내</a></li>
+                  <li><a href="./sub_page/sub_index.html">이달의 주요민원</a></li>
+                  <li><a href="./sub_page/sub_index.html">교통불편 민원신청</a></li>
+                  <li><a href="./sub_page/sub_index.html">민원사례</a></li>
+                  <li><a href="./sub_page/sub_index.html">스마트 현장사진신고</a></li>
+                  <li><a href="./sub_page/sub_index.html">신고센터</a></li>
+                  <li><a href="./sub_page/sub_index.html">공익제보센터</a></li>
+                  <li><a href="./sub_page/sub_index.html">정부24</a></li>
+                </ul>
+              </div><!--tab_menu_list01-->
+          </li><!--tab_li_box-->
+
+         
+          
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad02" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              제안신청
+              <label for="aco_rad02" class="tab_lab_open tab_lab">
+                <li><i class="fa-solid fa-plus"></i></li>
+              </label>
+              <label for="aco_rad02" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list02 tab_list">
+              <li><a href="#!">일반제안</a></li>
+              <li><a href="#!">공모제안</a></li>
+              <li><a href="#!">나의 제안</a></li>
+            </ul><!--tab_menu_list02-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad03" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              시민참여
+              <label for="aco_rad03" class="tab_lab_open tab_lab">
+                <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad03" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list03 tab_list">
+              <li><a href="#!">설문조사</a></li>
+              <li><a href="#!">나눔장터</a></li>
+              <li><a href="#!">국민생각함</a></li>
+              <li><a href="#!">모니터</a></li>
+              <li><a href="#!">이벤트 통합안내</a></li>
+              <li><a href="#!">행사/모집 신청</a></li>
+              <li><a href="#!">시민게시판</a></li>
+              <li><a href="#!">주민참여예산</a></li>
+              <li><a href="#!">민생규제혁신과제</a></li>
+              <li><a href="#!">칭찬합시다</a></li>
+              <li><a href="#!">시민열린마루</a></li>
+              <li><a href="#!">협치부산</a></li>
+            </ul><!--tab_menu_list03-->
+          </li><!--tab_li_box-->
+
+          
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad04" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              민원안내
+              <label for="aco_rad04" class="tab_lab_open tab_lab">
+                <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad04" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list04 tab_list">
+              <li><a href="#!">민원편람</a></li>
+              <li><a href="#!">민원목록</a></li>
+              <li><a href="#!">민원처리 확인</a></li>
+              <li><a href="#!">여권안내 </a></li>
+              <li><a href="#!">편리한 민원서비스</a></li>
+              <li><a href="#!">민원정보</a></li>
+              <li><a href="#!">민원시책</a></li>
+              <li><a href="#!">행정서비스헌장</a></li>
+            </ul><!--tab_menu_list04-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad05" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              120콜센터
+              <label for="aco_rad05" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad05" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list05 tab_list">
+              <li><a href="#!">이용안내</a></li>
+              <li><a href="#!">콜센터 소개</a></li>
+            </ul><!--tab_menu_list05-->
+          </li><!--tab_li_box-->
+        </ul><!--sheet01-->
+
+
+        <ul class="sheet02">
+          
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad06" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              새소식
+              <label for="aco_rad06" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad06" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list06 tab_list">
+              <li><a href="#!">통합 공지사항</a></li>
+              <li><a href="#!">홍보게시판</a></li>
+              <li><a href="#!">시정영상뉴스</a></li>
+              <li><a href="#!">전자책</a></li>
+              <li><a href="#!">공공앱</a></li>
+            </ul><!--tab_menu_list06-->
+          </li><!--tab_li_box-->
+
+          
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+              부산시보(다이내믹 부산)
+            </ul>
+
+            <ul class="tab_menu_list07 tab_list"></ul><!--tab_menu_list07-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad08" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              보도 · 해명자료
+              <label for="aco_rad08" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad08" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list08 tab_list">
+              <li><a href="#!">보도자료</a></li>
+              <li><a href="#!">해명 · 설명자료</a></li>
+            </ul><!--tab_menu_list08-->
+          </li><!--tab_li_box-->
+
+          
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad09" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              공고
+              <label for="aco_rad09" class="tab_lab_open tab_lab">
+              <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad09" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list09 tab_list">
+              <li><a href="#!">채용공고</a></li>
+              <li><a href="#!">공무원 시험공고</a></li>
+              <li><a href="#!">입찰공고</a></li>
+              <li><a href="#!">부산시보 고시공고</a></li>
+              <li><a href="#!">고시공고</a></li>
+              <li><a href="#!">입법예고</a></li>
+              <li><a href="#!">분묘개장공고</a></li>
+            </ul><!--tab_menu_list09-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+              부산시 공식SNS
+            </ul>
+            <ul class="tab_menu_list10 tab_list"></ul><!--tab_menu_list10-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad11" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              시정사진
+              <label for="aco_rad11" class="tab_lab_open tab_lab">
+              <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad11" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list11 tab_list">
+              <li><a href="#!">시정관련 사진자료</a></li>
+              <li><a href="#!">테마 갤러리</a></li>
+              <li><a href="#!">상징</a></li>
+            </ul><!--tab_menu_list11-->
+          </li><!--tab_li_box-->
+        </ul><!--sheet02-->
+
+
+
+        <ul class="sheet03">
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad12" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              주요시책
+              <label for="aco_rad12" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad12" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list12 tab_list">
+              <li><a href="#!">주요엄무계획</a></li>
+              <li><a href="#!">핵심정책</a></li>
+              <li><a href="#!">2022년 달라지는제도</a></li>
+              <li><a href="#!">인구정책 브리핑</a></li>
+            </ul><!--tab_menu_list12-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad13" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              정보공개
+              <label for="aco_rad13" class="tab_lab_open tab_lab">
+              <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad13" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list13 tab_list">
+              <li><a href="#!">정보공개제도</a></li>
+              <li><a href="#!">결재문서</a></li>
+              <li><a href="#!">정보공개 청구</a></li>
+              <li><a href="#!">사전정보공표</a></li>
+              <li><a href="#!">이 달의 정보공개</a></li>
+              <li><a href="#!">공유재산 및 물품</a></li>
+              <li><a href="#!">용역보고서</a></li>
+              <li><a href="#!">정책실명제</a></li>
+              <li><a href="#!">참여정책사전공시</a></li>
+              <li><a href="#!">인사통계/조직정보</a></li>
+              <li><a href="#!">마을세무사</a></li>
+              <li><a href="#!">공공시설건립비용</a></li>
+              <li><a href="#!">청사 신축비용</a></li>
+              <li><a href="#!">공공데이터 포털</a></li>
+              <li><a href="#!">빅데이터 포털</a></li>
+              <li><a href="#!">시민여론조사</a></li>
+              <li><a href="#!">위원회 운영정보</a></li>
+              <li><a href="#!">물가정보</a></li>
+              <li><a href="#!">업무추진비</a></li>
+              <li><a href="#!">먹는물영업자 위반현황</a></li>
+            </ul><!--tab_menu_list13-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad14" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              예산
+              <label for="aco_rad14" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad14" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list14 tab_list">
+              <li><a href="#!">세입세출예산서</a></li>
+              <li><a href="#!">기금운용계획</a></li>
+              <li><a href="#!">재정공시</a></li>
+              <li><a href="#!">세입세출운용</a></li>
+              <li><a href="#!">신고 및 조회</a></li>
+              <li><a href="#!">예산절감(낭비)사례</a></li>
+              <li><a href="#!">보조금 내역 공개</a></li>
+              <li><a href="#!">민간위탁</a></li>
+              <li><a href="#!">공공기간 위탁·대행</a></li>
+              <li><a href="#!">지방재정365</a></li>
+            </ul><!--tab_menu_list14-->
+          </li><!--tab_li_box-->
+
+          
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad15" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              감사정보
+              <label for="aco_rad15" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad15" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list15 tab_list">
+              <li><a href="#!">감사실시 안내</a></li>
+              <li><a href="#!">감사실시 결과</a></li>
+              <li><a href="#!">감사반복 지적사례</a></li>
+              <li><a href="#!">감사 제도</a></li>
+              <li><a href="#!">공직윤리제도</a></li>
+              <li><a href="#!">청렴게시판</a></li>
+              <li><a href="#!">부패공직자 제재현황</a></li>
+              <li><a href="#!">청렴해요 부산</a></li>
+              <li><a href="#!">청렴도 자가진단</a></li>
+              <li><a href="#!">시민 감사요망사항</a></li>
+              <li><a href="#!">채용 비리 신고</a></li>
+              <li><a href="#!">공공기관 신고하기</a></li>
+              <li><a href="#!"></a></li>
+            </ul><!--tab_menu_list15-->
+          </li><!--tab_li_box-->
+
+                  
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad16" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              지방공기업
+              <label for="aco_rad16" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad16" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list16 tab_list">
+              <li><a href="#!">지방공기업이란</a></li>
+              <li><a href="#!">지방공기업 현황</a></li>
+              <li><a href="#!">지방공기업 경영정보</a></li>
+              <li><a href="#!">지방공기업 임금공시</a></li>
+            </ul><!--tab_menu_list16-->
+          </li><!--tab_li_box-->
+
+                   
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad17" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              계약정보
+              <label for="aco_rad17" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad17" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list17 tab_list">
+              <li><a href="#!">계약현황</a></li>
+              <li><a href="#!">수의계약현황</a></li>
+              <li><a href="#!">하도급현황</a></li>
+              <li><a href="#!">대가지급</a></li>
+              <li><a href="#!">상수도사업본부 계약정보</a></li>
+            </ul><!--tab_menu_list17-->
+          </li><!--tab_li_box-->
+        </ul><!--sheet03-->
+
+        <ul class="sheet04">
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad18" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              <a href="./sub_page/sub_index.html">부산의 인물</a> 
+              <label for="aco_rad18" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad18" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list18 tab_list">
+              <li><a href="./sub_page/sub_index.html">향토수호(충신)</a></li>
+              <li><a href="#!">독립운동가</a></li>
+              <li><a href="#!">학자 및 교육자</a></li>
+              <li><a href="#!">사회운동가</a></li>
+              <li><a href="#!">기업인</a></li>
+              <li><a href="#!">문화예술인</a></li>
+              <li><a href="#!">부산광역시 문화상</a></li>
+              <li><a href="#!">자랑스러운 시민상</a></li>
+              <li><a href="#!">부산광역시 명예시민</a></li>
+            </ul><!--tab_menu_list18-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad19" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산의 오늘
+              <label for="aco_rad19" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad19" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list19 tab_list">
+              <li><a href="#!">도시비전과 목표</a></li>
+              <li><a href="#!">기본현황</a></li>
+              <li><a href="#!">행정구역/지도</a></li>
+              <li><a href="#!">국제교류 및 자매도시</a></li>
+
+            </ul><!--tab_menu_list19-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad20" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산의 상징
+              <label for="aco_rad20" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad20" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list20 tab_list">
+              <li><a href="#!">지역상징</a></li>
+              <li><a href="#!">기관상징</a></li>
+              <li><a href="#!">부산체</a></li>
+              <li><a href="#!">부산시민헌장</a></li>
+              <li><a href="#!">부산찬가</a></li>
+              <li><a href="#!">부산시민의 날</a></li>
+            </ul><!--tab_menu_list20-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad21" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산시청 안내
+              <label for="aco_rad21" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad21" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list21 tab_list">
+              <li><a href="#!">시청사 안내</a></li>
+              <li><a href="#!">전화번호 안내</a></li>
+              <li><a href="#!">조직도</a></li>
+              <li><a href="#!">시설운영 안내</a></li>
+              <li><a href="#!">시청사 견학</a></li>
+              <li><a href="#!">시청 전시실 대관</a></li>
+              <li><a href="#!">공기업·출자·출연기관</a></li>
+            </ul><!--tab_menu_list21-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad22" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산의 역사
+              <label for="aco_rad22" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad22" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list22 tab_list">
+              <li><a href="#!">명칭유래</a></li>
+              <li><a href="#!">시대별 부산역사</a></li>
+              <li><a href="#!">문화재</a></li>
+              <li><a href="#!">부산의 주요 경승지</a></li>
+              <li><a href="#!">시정역사</a></li>
+              <li><a href="#!">역대시장</a></li>
+              <li><a href="#!">연혁</a></li>
+              <li><a href="#!">향토사도서관</a></li>
+              <li><a href="#!">부산역사문화대전</a></li>
+              <li><a href="#!">항공사진으로 본 역사</a></li>
+            </ul><!--tab_menu_list22-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad23" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              부산통계
+              <label for="aco_rad23" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad23" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list23 tab_list">
+              <li><a href="#!">통계로 보는 부산</a></li>
+              <li><a href="#!">시민공감지도</a></li>
+              <li><a href="#!">통계소식</a></li>
+              <li><a href="#!">통계자료실</a></li>
+              <li><a href="#!">통계의 이해</a></li>
+            </ul><!--tab_menu_list23-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad24" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              시민행복지표
+              <label for="aco_rad24" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad24" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list24 tab_list">
+              <li><a href="#!">시민행복지표란?</a></li>
+              <li><a href="#!">시민행복지표 소개</a></li>
+              <li><a href="#!">시민행복지표 현황</a></li>
+            </ul><!--tab_menu_list24-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad25" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              도시브랜드
+              <label for="aco_rad25" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad25" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list25 tab_list">
+              <li><a href="#!">도시브랜드</a></li>
+              <li><a href="#!">부산브랜드웹툰</a></li>
+              <li><a href="#!">부산기네스125선</a></li>
+              <li><a href="#!">소통캐릭터</a></li>
+              <li><a href="#!">부산관광브랜드</a></li>
+            </ul><!--tab_menu_list25-->
+          </li><!--tab_li_box-->
+
+
+          <li class="tab_li_box">
+            <input type="radio" id="aco_rad26" name="tab_ham_li">
+            
+            <ul class="tab_ham_label">
+              주민자치회
+              <label for="aco_rad26" class="tab_lab_open tab_lab">
+               <i class="fa-solid fa-plus"></i>
+              </label>
+              <label for="aco_rad26" class="tab_lab_close tab_lab">
+                <i class="fa-solid fa-minus"></i>
+              </label>
+            </ul>
+
+            <ul class="tab_menu_list26 tab_list">
+              <li><a href="#!">추진배경 및 방향</a></li>
+              <li><a href="#!">설치/운영 및 체계도</a></li>
+              <li><a href="#!">주민자치회 현황</a></li>
+              <li><a href="#!">주민자치회 소식</a></li>
+              <li><a href="#!">우수사례</a></li>
+              <li><a href="#!">활동갤러리</a></li>
+              <li><a href="#!">주민자치위원회 구성</a></li>
+              <li><a href="#!">회의록</a></li>
+              <li><a href="#!">주민자치위원회 활동</a></li>
+              <li><a href="#!">운영프로그램</a></li>
+            </ul><!--tab_menu_list26-->
+          </li><!--tab_li_box-->
+        </ul><!--sheet04-->
+
+        <ul class="sheet05">
+          
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             경제
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+            
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             일자리·교육
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+ 
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             사회복지
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+             
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             보건·건강
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+                        
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             도시·건축
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+                        
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             안전
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+                        
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             환경보호
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+                        
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             교통·물류
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             해양농수산
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             행정
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+
+          <li class="tab_li_box">
+            <ul class="tab_ham_label">
+             문화체육관광
+            </ul>
+
+            <ul class="tab_menu_list27 tab_list"></ul><!--tab_menu_list27-->
+          </li><!--tab_li_box-->
+        </ul><!--sheet05-->
+      </div><!--ham_tab_sheet-->
+    </div><!--tab_box-->
+  </section><!--ham_box-->
+
+
+
+  <input type="checkbox" id="bugi_chk">
+ 
+  <section class="bugi_search_box">
+
+    <div>
+      <!-- <img src="./images/bugi_search_bg.png" alt="부기배경이미지"> -->
+    </div>
+
+    <p>부산 먼저 미래로</p>
+    <p>그린스마트 도시 부산</p>
+
+    <div class="bugi_box">
+      <div class="bugi_img">
+        <div>
+          <img src="./images/bugi.png" alt="부기이미지">
+        </div>
+      </div>
+    </div>
+    
+    <div class="bugi_txt_box">
+      <input type="text" placeholder="  검색어를 입력해주세요">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+     
+    <div class="bugi_banner01">
+      <div><a href="#!"><img src="./images/event01.jpg" alt="이벤트01이미지"></a></div>
+      <div><a href="#!"><img src="./images/event02.jpg" alt="이벤트02이미지"></a></div>
+      <div><a href="#!"><img src="./images/event03.jpg" alt="이벤트03이미지"></a></div>
+      <div><a href="#!"><img src="./images/event04.jpg" alt="이벤트04이미지"></a></div>
+    </div>
+
+    <div class="bugi_banner02">
+      <div><a href="#!"><img src="./images/event05.jpg" alt="이벤트05이미지"></a></div>
+      <div><a href="#!"><img src="./images/event06.jpg" alt="이벤트06이미지"></a></div>
+      <div><a href="#!"><img src="./images/event07.jpg" alt="이벤트07이미지"></a></div>
+      <div><a href="#!"><img src="./images/event08.jpg" alt="이벤트08이미지"></a></div>
+    </div>
+
+
+    <label for="bugi_chk" class="btn_bugi_close">닫기<i class="fa-solid fa-arrow-left"></i> </label>
+    <label for="bugi_chk" class="btn_bugi_open"> 열기<i class="fa-solid fa-arrow-right"></i></label>
+  </section><!--bugi_search_box-->
+ 
+
+  <div class="bg_img"><img src="./images/bg_img.png" alt="배경이미지"></div>
+  <div class="wrap">
+
+      <section class="metapo_box">
+        <div class="metapo_frame">
+          <ul class="metapo_length">
+              <li>
+                <a href="#!">
+                  <img src="./images/metapo01.png" alt="경제이미지">
+                  <p>경제</p>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img src="./images/metapo02.png" alt="일자리교육이미지">
+                  <p>일자리·교육</p>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img src="./images/metapo03.png" alt="사회복지이미지">
+                  <p>사회복지</p>
+              </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img src="./images/metapo04.png" alt="보건건강이미지">
+                  <p>보건·건강</p>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img src="./images/metapo05.png" alt="도시건축이미지">
+                  <p>도시·건축</p>
+              </a>
+              </li>
+
+              <li>
+                <a href="#!">
+                  <img src="./images/metapo06.png" alt="경제이미지">
+                  <p>안전</p>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img src="./images/metapo07.png" alt="일자리교육이미지">
+                  <p>환경보호</p>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img src="./images/metapo08.png" alt="사회복지이미지">
+                  <p>교통·물류</p>
+              </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img src="./images/metapo10.png" alt="보건건강이미지">
+                  <p>해양농수산</p>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <img src="./images/metapo09.png" alt="도시건축이미지">
+                  <p>행정</p>
+              </a>
+              </li>
+          </ul><!--metapo_length-->
+        </div><!--metapo_frame-->
+        <div class="btn_metapo">
+          <p class="btn_meta_left"><i class="fa-solid fa-chevron-left"></i></p>
+          <p class="btn_meta_right"><i class="fa-solid fa-chevron-right"></i></p>
+        </div>
+
+      </section><!--metapo_box-->
+
+
+      <div class="title">
+      <div class="title_img"><img src="./images/ico_bullet02.png" alt="타이틀이미지"></div>
+        <p>안내</p>
+      </div>
+      
+      <section class="guide_box">
+        <div class="guide_top">
+          <div>
+            <p class="g_top01">
+              주요서비스<i class="fa-solid fa-plus"></i>
+            </p>
+
+            <div class="guide_list01 g_list">
+              <div class="g_list_inbox">
+                <ul class="list_first">
+                  <li>
+                    <ul><img src="./images/guide1_01.png" alt=""></ul>
+                    <p>도서관포털</p>
+                  </li>
+        
+                  <li>
+                    <ul><img src="./images/guide1_02.png" alt=""></ul>
+                    <p>미래놀이터</p>
+                    <p>들락날락</p>
+                  </li>
+        
+                  <li>
+                    <ul><img src="./images/guide1_03.png" alt=""></ul>
+                    <p>부산아이</p>
+                    <p>다같이키움</p>
+                  </li>
+                </ul><!-- list_first -->
+        
+                <ul class="list_second">
+                  <li>
+                    <ul><img src="./images/guide1_04.png" alt=""></ul>
+                    <p>부산청년</p>
+                    <p>플랫폼</p>
+                  </li>
+        
+                  <li>
+                    <ul><img src="./images/guide1_05.png" alt=""></ul>
+                    <p>50+부산포털</p>
+                  </li>
+        
+                  <li>
+                    <ul><img src="./images/guide1_06.png" alt=""></ul>
+                    <p>지방세납부</p>
+                  </li>
+                </ul><!--list_second -->
+              </div><!--g_list_inbox-->
+
+              <ul class="list_third">
+                <li>
+                  <ul><img src="./images/guide1_07.png" alt=""></ul>
+                  <p>동백전</p>
+                </li>
+      
+                <li>
+                  <ul><img src="./images/guide1_08.png" alt=""></ul>
+                  <p>부비카정보</p>
+                </li>
+              </ul><!--list_third -->
+
+            </div><!-- guide_list01 -->
+          </div>
+
+          <div>
+            <p class="g_top02">
+              핵심정책<i class="fa-solid fa-plus"></i>
+            </p>
+            <div class="guide_list02 g_list">
+              <div class="g_list_inbox">
+                <ul class="list_first">
+                  <li>
+                    <ul><img src="./images/guide2_01.png" alt=""></ul>
+                    <p>2030부산</p>
+                    <p>세계박람회</p>
+                  </li>
+        
+                  <li>
+                    <ul><img src="./images/guide2_02.png" alt=""></ul>
+                    <p>가덕도</p>
+                    <p>신공항</p>
+                  </li>
+        
+                  <li>
+                    <ul><img src="./images/guide2_03.png" alt=""></ul>
+                    <p>15분도시</p>
+                  </li>
+                </ul><!--list_first-->
+        
+                <ul class="list_second">
+                  <li>
+                    <ul><img src="./images/guide2_04.png" alt=""></ul>
+                    <p>부율경 초광역</p>
+                    <p>경제동맹</p>
+                    
+                  </li>
+        
+                  <li>
+                    <ul><img src="./images/guide2_05.png" alt=""></ul>
+                    <p>부산항(북항)</p>
+                    <p>재개발</p>
+                  </li>
+        
+                  <li>
+                    <ul><img src="./images/guide2_06.png" alt=""></ul>
+                    <p>국제관광도시</p>
+                  </li>
+                </ul><!--list_second-->
+              </div><!--g_list_inbox-->
+      
+              <ul class="list_third">
+                <li>
+                  <ul><img src="./images/guide2_07.png" alt=""></ul>
+                  <p>에코델타시티</p>
+                </li>
+      
+                <li>
+                  <ul><img src="./images/guide2_08.png" alt=""></ul>
+                  <p>민선8기</p>
+                  <p>주요업무</p>
+                </li>
+              </ul><!--list_third-->
+            </div><!-- guide_list02 -->
+          </div>
+
+    
+          <p class="g_top03">
+            시민참여<i class="fa-solid fa-plus"></i>
+          </p>
+          <div class="guide_list03 g_list">
+            <div class="g_list_inbox">
+              <ul class="list_first">
+                <li>
+                  <ul><img src="./images/guide3_01.png" alt=""></ul>
+                  <p>민원신청</p>
+                </li>
+      
+                <li>
+                  <ul><img src="./images/guide3_02.png" alt=""></ul>
+                  <p>시민제안</p>
+                </li>
+      
+                <li>
+                  <ul><img src="./images/guide3_03.png" alt=""></ul>
+                  <p>시민열린마루</p>
+                </li>
+              </ul><!--list_first-->
+      
+              <ul class="list_second">
+                <li>
+                  <ul><img src="./images/guide3_04.png" alt=""></ul>
+                  <p>협치부산</p>
+                </li>
+      
+                <li>
+                  <ul><img src="./images/guide3_05.png" alt=""></ul>
+                  <p>신고센터</p>
+                </li>
+      
+                <li>
+                  <ul><img src="./images/guide3_06.png" alt=""></ul>
+                  <p>공익제보</p>
+                </li>
+              </ul><!--list_second-->
+            </div><!--g_list_inbox-->
+            <ul class="list_third">
+              <li>
+                <ul><img src="./images/guide3_07.png" alt=""></ul>
+                <p>성희롱상담</p>
+              </li>
+    
+              <li>
+                <ul><img src="./images/guide3_08.png" alt=""></ul>
+                <p>참여예산</p>
+              </li>
+            </ul><!--list_third-->
+          </div><!-- guide_list03 -->
+      
+
+        </div><!--guide_top-->
+
+        <div class="guide_bottom">
+          <a href="#!"></a><p> 코로나19<i class="fa-solid fa-plus"></i></p></a>
+          <a href="#!"></a><p> 원아시아페스티벌<i class="fa-solid fa-plus"></i></p></a>
+        </div><!--guide_bottom-->
+      </section><!-- guide_box -->
+
+
+      <section class ="guide_content_box">
+        <div class="guide_content01">
+          <div class="content01_top gradient-border">
+            <p class="con_top_title">부산시보</p>
+            <div class="con01_circle">
+              <p>
+                <div><img src="./images/content01-1.png" alt="content01이미지"></div>
+                <div><img src="./images/content01-2.png" alt="content02이미지"></a></div>
+              </p>
+              <p>
+                <div><img src="./images/content01-3.png" alt="content03이미지"></div>
+                <div><img src="./images/content01-4.png" alt="content04이미지"></div>
+              </p>
+            </div>
+          </div>
+          
+          <div class="content01_bottom gradient-border">
+            <div>
+              <p>통합예약</p>
+              <div class="bottom_txt">간편하게 예약하세요.<br>강좌/교육, 견학/체험, 대관/대여</div>
+              <div><img src="./images/content01-5.png" alt="content05이미지"></div>
+              <div><img src="./images/content01-6.png" alt="content06이미지"></div>
+            </div>
+          </div>
+        </div><!--guide_content01-->
+
+        <div class="guide_content02">
+          <div class="content02_top gradient-border">
+            <p class="con_top_title"><span>관광</span></p>
+            <div class="con02_circle">
+              <p>
+                <div><img src="./images/content02-1.png" alt="content01이미지"></div>
+                <div><img src="./images/content02-2.png" alt="content02이미지"></div>
+              </p>
+              <p>
+                <div><img src="./images/content02-3.png" alt="content03이미지"></div>
+                <div><img src="./images/content02-4.png" alt="content04이미지"></div>
+            </p>
+            </div>
+          </div>
+
+          <div class="content02_bottom gradient-border">
+            <p><a href="#!">부산광역시장 <span>박형준</span></a></p>
+            <div>
+              <p><a href="#!">공약&메니페스토<i class="fa-solid fa-plus"></i></a></p>
+              <p><a href="#!">시정활동<i class="fa-solid fa-plus"></i></a></p>
+            </div>
+            <div>
+              <p><a href="#!">도시비전<i class="fa-solid fa-plus"></i></a></p>
+              <p><a href="#!">시민열린마루<i class="fa-solid fa-plus"></i></a></p>
+            </div>
+          </div><!--content02_bottom-->
+        </div><!--guide_content02-->
+      </section><!--guide_content_box-->
+
+
+      
+      <div class="title">
+        <div class="title_img"><img src="./images/ico_bullet02.png" alt="타이틀이미지"></div>
+        <p>알림</p>
+      </div>
+
+      <section class="notice01">
+        <div class="not01_title">
+          <div><a href="#!">공지사항</a></div>
+          <a href="#!"><div>더보기<i class="fa-solid fa-plus"></i></div></a>
+        </div>
+        <div class="not01_box">
+    
+          
+          <div class="frame">
+            <ul>
+              <li class="gradient-border">
+                <p>2022년 데이터바우처 지원사업 성과확산 로드쇼 안내</p>
+                <p>2022년 데이터바우처 지원사업 성과확산 로드쇼 개최를 안내하여 드리니 많은 기업들의참여를 바립니다. 데이터 바우처 지원사업은 데이터기반제품과 서비스개발,분석 등에 필요한 데이터를 구매하거나, 데이터전문 기업으로부터 가공서비스를 지원하는제도</p>
+              </li>
+
+              <li class="gradient-border">
+                <p> ⌜해운대 청년채움공간⌟ 청년 소자본 창업지원 프로그램 수강생 모집(무료강좌)</p>
+                <p>해운대 청년채움공간 청년 소자본 창업지원 프로그램-내용:창업분비 방법시장 검증 및 바리스타 기술 교육 -일자: 2022년 11월 22일(화)~11월 24일(목),총3일간</p>
+              </li>
+
+              <li class="gradient-border">
+                <p>부산시 홈페이지 회원 휴먼 및 자동탈퇴(파기) 사전안내</p>
+                <p>부산시 홈페이지를 이용해 주시는 회원님께 감사드립니다. 부산시에서 개인정보보호 법령에 의거하여,보유하고 있는 회원정보 중 2년간 복귀절차</p>
+              </li>
+            </ul>
+          </div><!--frame-->
+
+              
+          <div class="btn_not01">
+            <p class="btn_not_left"><i class="fa-solid fa-chevron-left"></i></p>
+            <p class="btn_not_right"><i class="fa-solid fa-chevron-right"></i></p>
+          </div><!--btn_not01-->
+        </div><!--not01_box-->
+      </section><!--notice01-->
+
+
+      <section class="notice02">
+        <div>
+          <a href="#!">
+            <p>고시공고</p>
+            <p>더보기<i class="fa-solid fa-plus"></i></p>
+          </a>
+        </div>
+
+        <div>
+          <a href="#!">
+            <p>채용정보</p>
+            <p>더보기<i class="fa-solid fa-plus"></i></p>
+          </a>
+        </div>
+
+        <div>
+          <a href="#!">
+            <p>시험공고</p>
+            <p>더보기<i class="fa-solid fa-plus"></i></p>
+          </a>
+        </div>
+      </section><!--notice02-->
+
+
+    
+    <div class="title">
+      <div class="title_img"><img src="./images/ico_bullet02.png" alt="타이틀이미지"></div>
+      <p>소통</p>
+    </div>
+
+
+    <section class="communicate_outer">
+      <div class="communicate_box">
+        <input type="radio" id="com_rad01" name ="btn_com_tab"checked>
+        <input type="radio" id="com_rad02" name ="btn_com_tab">
+        <input type="radio" id="com_rad03" name ="btn_com_tab">
+        <input type="radio" id="com_rad04" name ="btn_com_tab">
+        <input type="radio" id="com_rad05" name ="btn_com_tab">
+        <input type="radio" id="com_rad06" name ="btn_com_tab">
+        <input type="radio" id="com_rad07" name ="btn_com_tab">
+        <input type="radio" id="com_rad08" name ="btn_com_tab">
+
+        <div class="com_topmid_box">
+         
+          <div class="com_top">
+            <div>
+              <a href="#!">
+                <label for="com_rad01">
+                  <div class="com_in_box">
+                    <i class="fa-solid fa-microphone"></i>
+                    <p>보도자료</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+               </label>
+              </a>
+            </div>
+
+            <div>
+              <a href="#!">
+                <label for="com_rad02">
+                  <div class="com_in_box">
+                    <i class="fa-regular fa-note-sticky"></i>
+                    <p>부산시보</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </label>
+              </a>
+            </div>
+            
+            <div>
+              <a href="#!">
+                <label for="com_rad03">
+                  <div class="com_in_box">
+                    <i class="fa-brands fa-youtube"></i>
+                    <p>부산튜브</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </label>
+              </a>
+            </div>
+          </div> <!--com_top-->
+
+          <div class="com_mid">
+            <div>
+              <a href="#!">
+                <label for="com_rad04">
+                  <div class="com_in_box">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <p>페이스북</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+               </label>
+              </a>
+            </div>
+
+            <div>
+              <a href="#!">
+                <label for="com_rad05">
+                  <div class="com_in_box">
+                    <i class="fa-sharp fa-solid fa-b"></i>
+                    <p>&nbsp;블로그</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+               </label>
+              </a>
+            </div>
+          </div><!--com_mid-->
+        </div><!--com_topmid_box-->
+
+        <div class="com_bottom">
+          <div>
+            <a href="#!">
+              <label for="com_rad06">
+                <div class="com_in_box">
+                  <div class="com_img"><img src="./images/com_bottom_01.png" alt="부기이미지"></div>
+                  <p>캐릭터 부기</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </label>
+            </a>
+          </div>
+
+          <div>
+            <a href="#!">
+              <label for="com_rad07">
+                <div class="com_in_box">
+                  <div class="com_img expo"><img src="./images/com_bottom_02.png" alt="엑스포이미지"></div>
+                  <p>엑스포소식</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+            </label>
+            </a>
+          </div>
+
+          <div class="com_bottom_hidden">
+            <a href="#!">
+              <label for="com_rad08">
+                <div class="com_in_box">
+                  <div class="com_i"><i class="fa-solid fa-chart-column"></i></div>
+                  <p>경제브리핑</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </label>
+            </a>
+          </div>
+        </div><!--com_bottom-->
+
+        <div class="com_tab_sheet">
+          <div class="c_tab_sheet01"><img src="./images/com_tab_sheet01.jpg" alt="보도자료 이미지"></div>
+          <div class="c_tab_sheet02"><img src="./images/com_tab_sheet02.jpg" alt="부산시보 이미지"></div>
+          <div class="c_tab_sheet03"><img src="./images/com_tab_sheet03.jpg" alt="부산튜브 이미지"></div>
+          <div class="c_tab_sheet04"><img src="./images/com_tab_sheet04.jpg" alt="페이스북 이미지"></div>
+          <div class="c_tab_sheet05"><img src="./images/com_tab_sheet05.jpg" alt="블로그 이미지"></div>
+          <div class="c_tab_sheet06"><img src="./images/com_tab_sheet06.jpg" alt="캐릭터부기 이미지"></div>
+          <div class="c_tab_sheet07"><img src="./images/com_tab_sheet07.jpg" alt="엑스포소식 이미지"></div>
+          <div class="c_tab_sheet08"><img src="./images/com_tab_sheet08.jpg" alt="경제브리핑 이미지"></div>
+        </div><!--com_tab_box-->
+      </div><!--communicate_box-->
+
+      <div class="communicate_card">
+        <div class="card_frame">
+          <div class="card_sheet_box">
+            <div class="c_sheet0102_box">
+              <div class="c_sheet01">
+                <div class="card_top">
+                  <p>보도<br/>자료</p>
+                  <p>박형준 시장, 대통령 특사 임명! <br/>민관합동 특사단 구성해 적극적 교섭활동</p>
+                </div>
+                <div class="card_img"><img src="./images/card_img01.jpg" alt="보도자료이미지"></div>
+              </div><!--sheet01-->
+
+              <div class="c_sheet02">
+                <div class="card_top">
+                  <p>부산<br/>시보</p>
+                  <p>부산시, 엑스포 유치·도시 반전 인프라 확충 "착착"</p>
+                </div>
+                <div class="card_img"><img src="./images/card_img02.jpg" alt="부산시보이미지"></div>
+              </div><!--sheet02-->
+            </div><!--c_sheet0102_box-->
+
+            <div class="c_sheet0304_box">
+              <div class="c_sheet03">
+                <div class="card_full">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="card_img_full"><img src="./images/card_img03_tablet.jpg" alt="페이스북이미지"></div>
+              </div><!--sheet03-->
+
+              <div class="c_sheet04">
+                <div class="card_full">
+                  <div>엑스포<br/>소식</div>
+                </div>
+                <div class="card_img_full"><img src="./images/card_img04_tablet.jpg" alt="엑스포소식이미지"></div>
+              </div><!--sheet04-->
+            </div><!--c_sheet0304_box-->
+          </div><!--card_sheet_box-->
+        </div><!--card_frame-->
+
+        <div class="card_indicator">
+          <p class="indi01"></p>
+          <p class="indi02"></p>
+          <p class="indi03"></p>
+          <p class="indi04"></p>
+        </div>
+      </div><!--communicate_card-->
+    </section><!--communicate_outer-->
+
+
+    <div class="title_long">
+      <div class="title_img_long"><img src="./images/ico_bullet02.png" alt="타이틀이미지"></div>
+      <p>문화/예술</p>
+    </div>
+
+
+    <section class="today_show_box">
+      <p>오늘의 공연</p>
+      <div class="today_show">
+        <ul class="bxslider">
+          <li><img src="./images/art_show01.jpg" ></li>
+          <li><img src="./images/art_show02.jpg" ></li>
+          <li><img src="./images/art_show03.jpg" ></li>
+          <li><img src="./images/art_show04.jpg" ></li>
+          <li><img src="./images/art_show05.jpg" ></li>
+          <li><img src="./images/art_show06.jpg" ></li>
+          <li><img src="./images/art_show07.jpg" ></li>
+          <li><img src="./images/art_show08.jpg" ></li>
+          <li><img src="./images/art_show09.jpg" ></li>
+        </ul>
+      </div><!--today_show-->
+
+      
+      <div class="today_show_tabweb">
+        <div class="today_sheet">
+          <div class="today_sheet_bg01 sheetbg to_on_sheet">
+            <div class="to_sheet01 to_on_sheet">
+              <div class="show_img"><img src="./images/art_show01.jpg" alt=""></div>
+              <div class="to_txt">
+                <p><i class="fa-solid fa-circle"></i> 콘서트홀</p>
+                <p>뮤지컬 브로드웨이 42번가</p>
+                <p>2022.11.05 ~ 2023.1.15 (금) 20:00</p>
+                <div><a href="#!">자세히보기</a></div>
+              </div>
+            </div><!--to_sheet01-->
+          </div><!--today_sheet_bg01-->
+
+
+
+          <div class="today_sheet_bg02 sheetbg">
+            <div class="to_sheet02">
+              <div class="show_img"><img src="./images/art_show02.jpg" alt=""></div>
+              <div class="to_txt">
+                <p><i class="fa-solid fa-circle"></i> 콘서트홀</p>
+                <p>스트라스부르 필하모닉 오케스트라 내한공연</p>
+                <p>2022.12.20 (화) 20:00</p>
+                <div><a href="#!">자세히보기</a></div>
+              </div>
+            </div><!--to_sheet02-->
+          </div><!--today_sheet_bg02-->
+
+          
+          <div class="today_sheet_bg03 sheetbg">
+            <div class="to_sheet03">
+              <div class="show_img"><img src="./images/art_show03.jpg" alt=""></div>
+              <div class="to_txt">
+                <p><i class="fa-solid fa-circle"></i> 챔버홀</p>
+                <p>뷔에르 앙상블 제 5회 정기연주회</p>
+                <p>2022.11.12 (토) 14:00</p>
+                <div><a href="#!">자세히보기</a></div>
+              </div>
+            </div><!--to_sheet03-->
+          </div><!--today_sheet_bg03-->
+
+          
+          <div class="today_sheet_bg04 sheetbg">
+            <div class="to_sheet04">
+              <div class="show_img"><img src="./images/art_show04.jpg" alt=""></div>
+              <div class="to_txt">
+                <p><i class="fa-solid fa-circle"></i> 콘서트홀</p>
+                <p>베르디 오페라 운명의 힘</p>
+                <p>2022.11.17 (금) 19:30</p>
+                <div><a href="#!">자세히보기</a></div>
+              </div>
+            </div><!--to_sheet04-->
+          </div><!--today_sheet_bg04-->
+
+          <div class="today_sheet_bg05 sheetbg">
+            <div class="to_sheet05">
+              <div class="show_img"><img src="./images/art_show05.jpg" alt=""></div>
+              <div class="to_txt">
+                <p><i class="fa-solid fa-circle"></i> 자유소극장</p>
+                <p>연극 러브레터</p>
+                <p>2022.11.13 (화) 19:00</p>
+                <div><a href="#!">자세히보기</a></div>
+              </div>
+            </div><!--to_sheet05-->
+          </div><!--today_sheet_bg05-->
+
+          <div class="today_sheet_bg06 sheetbg">
+            <div class="to_sheet06">
+              <div class="show_img"><img src="./images/art_show06.jpg" alt=""></div>
+              <div class="to_txt">
+                <p><i class="fa-solid fa-circle"></i> 콘서트홀</p>
+                <p>작꾸 둥굴구 서뚜르게 스텝업</p>
+                <p>2022.11.18 -20(화, 수, 목) 20:00</p>
+                <div><a href="#!">자세히보기</a></div>
+              </div>
+            </div><!--to_sheet06-->
+          </div><!--today_sheet_bg06-->
+
+
+
+          <ul class="show_tab">
+            <li class="to_on"><img src="./images/tab_art_show01.jpg" alt="tab이미지01"></li>
+            <li><img src="./images/tab_art_show02.jpg" alt="tab이미지02"></li>
+            <li><img src="./images/tab_art_show03.jpg" alt="tab이미지03"></li>
+            <li><img src="./images/tab_art_show04.jpg" alt="tab이미지04"></li>
+            <li><img src="./images/tab_art_show05.jpg" alt="tab이미지05"></li>
+            <li><img src="./images/tab_art_show06.jpg" alt="tab이미지06"></li>
+          </ul>
+        </div><!--today_sheet-->
+      </div><!--today_show_tabweb-->
+    </section><!--today_show_box-->
+
+
+
+
+
+
+    <section class="today_exhibit">
+
+      <p>오늘의 전시</p>
+      <section class="center slider">
+        <div>
+          <img src="./images/exhibit01.jpg">
+        </div>
+        <div>
+          <img src="./images/exhibit02.jpg">
+        </div>
+        <div>
+          <img src="./images/exhibit03.jpg">
+        </div>
+        <div>
+          <img src="./images/exhibit04.jpg">
+        </div>
+        <div>
+          <img src="./images/exhibit05.jpg">
+        </div>
+        <div>
+          <img src="./images/exhibit06.jpg">
+        </div>
+        <div>
+          <img src="./images/exhibit07.jpg">
+        </div>
+        <div>
+          <img src="./images/exhibit08.jpg">
+        </div>
+        <div>
+          <img src="./images/exhibit09.jpg">
+        </div>
+      </section>
+
+    </section><!--today_exhibit-->
+
+
+        
+    <div class="title banner">
+      <div class="title_img"><img src="./images/ico_bullet02.png" alt="타이틀이미지"></div>
+      <p>배너</p>
+    </div>
+
+    <section class="banner_box">
+      <ul class="banner_bxslider">
+        <li><img src="./images/banner01.jpg" alt="배너이미지01"></li>
+        <li><img src="./images/banner02.jpg" alt="배너이미지02"></li>
+        <li><img src="./images/banner03.jpg" alt="배너이미지03"></li>
+        <li><img src="./images/banner04.jpg" alt="배너이미지04"></li>
+        <li><img src="./images/banner05.jpg" alt="배너이미지05"></li>
+        <li><img src="./images/banner06.jpg" alt="배너이미지06"></li>
+      </ul>
+
+      <ul class="banner_tabweb">
+        <ul>
+          <li><img src="./images/banner01.jpg" alt=""></li>
+          <li><img src="./images/banner02.jpg" alt=""></li>
+          <li class="banner_webimg"><img src="./images/banner03.jpg" alt=""></li>
+        </ul>
+        <ul>
+          <li><img src="./images/banner04.jpg" alt=""></li>
+          <li><img src="./images/banner05.jpg" alt=""></li>
+          <li class="banner_webimg"><img src="./images/banner06.jpg" alt=""></li>
+        </ul>
+      </ul>
+
+      <div class="btn_banner">
+        <a href="#!">
+          <p>
+          <i class="fa-regular fa-image"></i>
+          부산시 알림배너
+          </p>
+        </a>
+      </div>
+    </section><!--banner_box-->
+
+  </div><!--wrap-->
+
+
+
+  <footer class="footer">
+    <div class="footer_top_box">
+      <div class="footer_top01">
+        <input type="checkbox" id="footer_chk01">
+
+        <div class="footer_lab">
+          <p>사업소 사이트</p>
+          <label for="footer_chk01" class="btn_f_open"><i class="fa-solid fa-chevron-down"></i></label>
+          <label for="footer_chk01" class="btn_f_close"><i class="fa-solid fa-chevron-up"></i></label>
+        </div>
+
+        <div class="footer_top_list01">
+          <p>건설본부</p>
+          <p>건설안전시험사업소</p>
+          <p>국제수산물유통시설관리사업소</p>
+          <p>금련산청소년수련원</p>
+          <p>교통서비스센터</p>
+          <p>낙동강관리본부</p>
+          <p>낙동강하구에코센터</p>
+          <p>남향관리사업소</p>
+          <p>농업기술센터</p>
+          <p>반여농산물도매시장관리사업소</p>
+          <p>보건환경연구원</p>
+          <p>부산근현대역사관</p>
+          <p>부산도서관</p>
+          <p>부산시립박물관</p>
+          <p>부산현대박물관</p>
+          <p>서울본부</p>
+          <p>소방재난본부</p>
+          <p>시립미술관</p>
+          <p>수산자원연구소</p>
+          <p>아동보호종합센터</p>
+          <p>인재개발원</p>
+          <p>엄궁농산물도매시장관리사업소</p>
+          <p>여성회관</p>
+          <p>여성문호회관</p>
+          <p>차량등록사업소</p>
+          <p>체육시설관리사업소</p>
+          <p>푸른도시가꾸기사업소</p>
+          <p>해양자연사박물관</p>
+        </div><!--footer_top_list01-->
+      </div><!--footer_top01-->
+
+      
+      <div class="footer_top02">
+        <input type="checkbox" id="footer_chk02">
+
+        <div class="footer_lab">
+          <p>관련사이트</p>
+          <label for="footer_chk02" class="btn_f_open"><i class="fa-solid fa-chevron-down"></i></label>
+          <label for="footer_chk02" class="btn_f_close"><i class="fa-solid fa-chevron-up"></i></label>
+        </div>
+
+        <div class="footer_top_list02">
+          <p>국제자매도시</p>
+          <p>부산소재 공공기관</p>
+          <p>부산광역시의회</p>
+          <p>시 관련 홈페이지</p>
+          <p>시·도 홈페이지</p>
+          <p>유관기관 및 타기관</p>
+          <p>자치구·군</p>
+          <p>자치구·군·의회</p>
+          <p>지방공기업</p>
+          <p>출자·출연기관</p>
+        </div><!--footer_top_list02-->
+      </div><!--footer_top02-->
+    </div><!--footer_top_box-->
+
+    <nav class="footer_mid">
+      <ul class="mid_topmid_box">
+        <ul class="mid_top">
+          <ul>
+            <li>약관 &nbsp;</li>
+            <li>| 홈페이지 저작권 보호정책&nbsp;</li>
+          </ul>
+
+          <ul>
+            <li>| 개인정도처리방침&nbsp; </li>
+            <li>| 행정서비스헌장&nbsp;</li>
+          </ul>
+
+          <ul>
+            <li>| 뷰어다운로드&nbsp;</li>
+            <li>| 홈페이지 모니터</li>
+          </ul>
+        </ul><!--mid_top-->
+
+        <ul class="logomid_box">
+          <ul class="footer_logo">
+            <img src="./images/footer_logo.png" alt="풋터로고">
+          </ul>
+
+
+          <ul class="mid_mid">
+            <ul>(우 47545)부산광역시 연제구 중앙대로 1001(연산동)</ul>
+
+            <ul>
+              <li><a href="#!">시청 찾아오시는길</a></li>
+              <li><a href="#!">주차안내</a></li>
+              <li><a href="#!">이용안내</a></li>
+            </ul>
+            
+            <ul>
+              본 페이지에 게시된 이메일 주소가 자동 수집되는 것을 거부하며, 이를 위반시 개인정보 보호법에 의해 처벌됨을 유념하시기 바랍니다.
+            </ul>
+
+            <ul>
+            Copyrightⓒ Busan Metropolitan City. All rights reserved
+            </ul>
+          </ul><!--mid_mid-->
+        </ul><!--logomid_box-->
+      </ul><!--mid_topmid_box-->
+
+      <ul class="mid_bottom">
+        <ul class="mid_bot_sns">
+          <li><img src="./images/footer_sns01.png" alt="sns01"></li>
+          <li><img src="./images/footer_sns02.png" alt=""></li>
+          <li><img src="./images/footer_sns03.png" alt=""></li>
+          <li><img src="./images/footer_sns04.png" alt=""></li>
+          <li><img src="./images/footer_sns05.jpg" alt=""></li>
+          <li><img src="./images/footer_sns06.png" alt=""></li>
+          <li><img src="./images/footer_sns07.jpg" alt=""></li>
+          <li><img src="./images/footer_sns08.png" alt=""></li>
+        </ul>
+
+        <ul class="mid_bot_call">
+          <li><span>부산시 120콜센터</span>(지역번호051)</li>
+          <li>051-120</li>
+        </ul>
+        
+        <ul>
+          평일 08:30 ~ 18:30 야간 공휴일 당직실 전환
+        </ul>
+
+        <ul>
+          <img src="./images/footer_mid_bottom(logo).png" alt="과학정보통신부 로고">
+        </ul>
+
+      </ul><!--mid_bottom-->
+    </nav><!--footer_mid-->
+  </footer><!--footer-->
+
+
+ <a href="#header" class="btn_top">TOP</a>
+ 
+</body>
+</html>
